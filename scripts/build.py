@@ -271,7 +271,7 @@ def main():
         # Standalone preview page: fonts from Google Fonts, no <html>/<head> wrapper
         out = pathlib.Path(sys.argv[sys.argv.index("--preview") + 1])
         html = html.replace("{{HEAD}}", '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-                            '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">')
+                            '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">')
     else:
         fonts = (ROOT / "src" / "fonts.css").read_text(encoding="utf-8")
         title = "Nintendo Party Superstars · Who makes Nintendo's games"
