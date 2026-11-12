@@ -29,11 +29,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - run: pip install openpyxl
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with: { node-version: "22" }
       - run: npm install --no-audit --no-fund
 
@@ -64,7 +64,7 @@ jobs:
           git diff --cached --quiet || git commit -m "Rebuild page"
           git push
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         if: env.CHANGED == 'yes'
         with: { path: public }
       - id: deployment
