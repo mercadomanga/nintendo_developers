@@ -1,0 +1,72 @@
+name: Build and publish
+
+# Rebuilds the page and publishes it on GitHub Pages:
+#  - on every push to main that touches data/, src/ or scripts/
+#  - once a day, to pick up Nintendo's quarterly headcount (early Feb, May, Aug, Nov);
+#    the daily run only publishes when something actually changed
+#  - by hand, from the Actions tab ("Run workflow")
+on:
+  push:
+    branches: [main]
+    paths: ["data/**", "src/**", "scripts/**", ".github/workflows/**"]
+  schedule:
+    - cron: "17 7 * * *"   # every day at 07:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install openpyxl
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm install --no-audit --no-fund
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Check Nintendo's official headcount
+        if: github.event_name == 'schedule'
+        continue-on-error: true
+        run: python3 scripts/update_nintendo.py
+
+      - name: Rebuild page
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && git diff --quiet data/; then
+            echo "Nothing new from Nintendo today."; echo "CHANGED=no" >> "$GITHUB_ENV"; exit 0
+          fi
+          python3 scripts/build.py
+          echo "CHANGED=yes" >> "$GITHUB_ENV"
+
+      - name: Save the rebuilt files
+        if: env.CHANGED == 'yes'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/Nintendo.xlsx public/index.html public/sitemap.xml public/robots.txt
+          git diff --cached --quiet || git commit -m "Rebuild page"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        if: env.CHANGED == 'yes'
+        with: { path: public }
+      - id: deployment
+        if: env.CHANGED == 'yes'
+        uses: actions/deploy-pages@v4

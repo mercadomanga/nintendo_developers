@@ -1,0 +1,1665 @@
+{
+ "_about": "Data that is NOT in Nintendo.xlsx: founding year, HQ, owner, key people, known for, website, Metascores and notes. Keys must match the 'Name' column of the spreadsheet exactly (typos included). Edit freely, then run: python3 scripts/build.py",
+ "studios": {
+  "Nintendo Global": {
+   "disp": "Nintendo Global",
+   "r": "jp",
+   "loc": "Kyoto",
+   "y": 1889,
+   "own": "Listed company (Tokyo Stock Exchange)",
+   "ot": "Listed",
+   "who": "Shuntaro Furukawa (president), Shigeru Miyamoto (fellow)",
+   "known": "Every console from Famicom to Switch 2",
+   "web": "https://www.nintendo.co.jp/",
+   "note": "Whole group, every country and subsidiary included."
+  },
+  "NCL (Nintendo Co. Ltd.)": {
+   "disp": "Nintendo Co., Ltd.",
+   "r": "jp",
+   "loc": "Kyoto",
+   "y": 1889,
+   "own": "Parent company",
+   "ot": "Parent",
+   "who": "Shuntaro Furukawa (president)",
+   "known": "Mario, Zelda, Animal Crossing, Splatoon",
+   "web": "https://www.nintendo.co.jp/",
+   "note": "The Japanese parent company only, not the overseas branches."
+  },
+  "Nintendo PG #3-7, #9-11 (Kyoto), CoPG, SDPG": {
+   "disp": "Nintendo EPD (Kyoto)",
+   "r": "jp",
+   "loc": "Kyoto",
+   "y": 2015,
+   "own": "Internal division of Nintendo Co., Ltd.",
+   "ot": "Internal",
+   "who": "Shinya Takahashi (general manager), Yoshiaki Koizumi",
+   "known": "Zelda, Mario Kart, Animal Crossing, Splatoon, Pikmin",
+   "note": "Entertainment Planning & Development: Nintendo's in-house game division, formed in 2015 by merging EAD and SPD. Split into numbered production groups (see the EPD map above). Its staff count is an old estimate (700) that has never been updated."
+  },
+  "∟PG #8 (Tokyo)": {
+   "disp": "Nintendo EPD Tokyo (PG#8)",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2003,
+   "own": "Internal division of Nintendo Co., Ltd.",
+   "ot": "Internal",
+   "who": "Kenta Motokura (producer)",
+   "known": "Super Mario 3D World, Super Mario Odyssey, Donkey Kong Bananza",
+   "note": "The 3D Mario team, born as EAD Tokyo in 2003. Its headcount jumped from 34 to 150 between the 2023 and 2024 estimates."
+  },
+  "Nintendo Software Technology (NST)": {
+   "disp": "Nintendo Software Technology",
+   "r": "na",
+   "loc": "Redmond, US",
+   "y": 1998,
+   "own": "Nintendo of America (100%)",
+   "ot": "Nintendo",
+   "known": "Mario vs. Donkey Kong, Wave Race: Blue Storm",
+   "recent": [
+    "Mario vs. Donkey Kong",
+    2024,
+    null
+   ]
+  },
+  "Nintendo European Research & Development (N.E.R.D.)": {
+   "disp": "Nintendo European R&D (NERD)",
+   "r": "eu",
+   "loc": "Paris, France",
+   "y": 2003,
+   "own": "Nintendo (100%, since 2011)",
+   "ot": "Nintendo",
+   "known": "Video codecs and engine technology for Nintendo hardware",
+   "web": "https://www.nerd.nintendo.com/",
+   "note": "Started life as Mobiclip, a video-compression company Nintendo bought in 2011."
+  },
+  "Nintendo Pictures": {
+   "disp": "Nintendo Pictures",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2011,
+   "own": "Nintendo (100%, since Oct 2022)",
+   "ot": "Nintendo",
+   "who": "Hiroshi Hirokawa (founder)",
+   "known": "Pikmin Short Movies, CG and motion capture work",
+   "web": "https://nintendo-pictures.co.jp/",
+   "note": "CG animation studio formerly called Dynamo Pictures, bought by Nintendo in 2022.",
+   "src": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Nintendo_Pictures"
+    ]
+   ]
+  },
+  "Nintendo Systems": {
+   "disp": "Nintendo Systems",
+   "r": "jp",
+   "loc": "Tokyo · Kyoto",
+   "y": 2023,
+   "own": "Nintendo 80% · DeNA 20%",
+   "ot": "Nintendo 80%",
+   "known": "Online services and apps",
+   "note": "Joint venture with DeNA, announced in November 2022 and opened in April 2023 to build Nintendo's network services.",
+   "src": [
+    [
+     "RPG Site",
+     "https://www.rpgsite.net/news/14001-nintendo-opens-nintendo-systems-division-in-partnership-with-dena"
+    ]
+   ],
+   "web": "https://www.nintendo-systems.com/",
+   "hide": 1,
+   "_hide": "Hidden until it is credited on a game; remove \"hide\" to show the card again."
+  },
+  "1-Up Studio": {
+   "disp": "1-Up Studio",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2000,
+   "own": "Nintendo (100%)",
+   "ot": "Nintendo",
+   "known": "Sword of Mana, Mother 3 (as Brownie Brown)",
+   "web": "https://1-up-studio.jp/",
+   "note": "Founded by ex-Square staff as Brownie Brown and renamed in 2013. Today it mostly supports EPD Tokyo on 3D Mario."
+  },
+  "MONOLITH SOFTWARE": {
+   "disp": "Monolith Soft",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1999,
+   "own": "Nintendo (majority since 2007)",
+   "ot": "Nintendo",
+   "who": "Tetsuya Takahashi (co-founder), Koh Kojima",
+   "known": "Xenoblade Chronicles, support on Zelda: Breath of the Wild / Tears of the Kingdom",
+   "web": "https://www.monolithsoft.co.jp/"
+  },
+  "Retro Studios": {
+   "disp": "Retro Studios",
+   "r": "na",
+   "loc": "Austin, US",
+   "y": 1998,
+   "own": "Nintendo (100%, since 2002)",
+   "ot": "Nintendo",
+   "who": "Jeff Spangenberg (founder)",
+   "known": "Metroid Prime, Donkey Kong Country Returns",
+   "web": "https://www.retrostudios.com/",
+   "recent": [
+    "Metroid Prime 4: Beyond",
+    2025,
+    78
+   ],
+   "note": "Took over Metroid Prime 4 when Nintendo restarted it in 2019. The 2026 headcount (~175) is an estimate: 85% of the 2025 figure."
+  },
+  "Nintendo Cube": {
+   "disp": "Nintendo Cube",
+   "r": "jp",
+   "loc": "Tokyo · Sapporo",
+   "y": 2000,
+   "own": "Nintendo (99%)",
+   "ot": "Nintendo",
+   "who": "Shuichiro Nishiya (president)",
+   "known": "Mario Party, Clubhouse Games",
+   "recent": [
+    "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV",
+    2025,
+    76
+   ],
+   "note": "Called NDcube until September 2024. Took in many former Hudson Soft developers.",
+   "src": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Nintendo_Cube"
+    ],
+    [
+     "Metacritic (Jamboree NS2E, 76)",
+     "https://www.metacritic.com/game/super-mario-party-jamboree-nintendo-switch-2/"
+    ]
+   ],
+   "web": "https://www.nintendo-cube.co.jp/"
+  },
+  "Nintendo Studios Singapore": {
+   "disp": "Nintendo Studios Singapore",
+   "r": "as",
+   "loc": "Singapore",
+   "y": 2013,
+   "own": "Nintendo 80% (since Apr 2026), Bandai Namco the rest for now",
+   "ot": "Nintendo 80%",
+   "known": "Hirogami, art support on Splatoon",
+   "note": "Formerly Bandai Namco Studios Singapore (founded March 2013). Nintendo announced the deal in November 2025: 80% on 1 April 2026, the rest once things settle.",
+   "src": [
+    [
+     "Nintendo press release",
+     "https://www.nintendo.co.jp/corporate/release/en/2025/251127.html"
+    ],
+    [
+     "Gematsu",
+     "https://www.gematsu.com/2025/11/nintendo-to-acquire-bandai-namco-studios-singapore-will-be-renamed-nintendo-studios-singapore"
+    ]
+   ],
+   "who": "Makoto Ishii (CEO)"
+  },
+  "Mario Club": {
+   "disp": "Mario Club",
+   "r": "jp",
+   "loc": "Kyoto",
+   "own": "Nintendo (100%)",
+   "ot": "Nintendo",
+   "known": "Debugging and testing every Nintendo game",
+   "web": "https://www.marioclub.co.jp/",
+   "note": "Not a developer: it is Nintendo's in-house QA and debugging company. The Mario Club team dates from the 1980s; it became a separate company in July 2009.",
+   "y": 2009
+  },
+  "iQue": {
+   "disp": "iQue",
+   "r": "as",
+   "loc": "Suzhou, China",
+   "y": 2002,
+   "own": "Nintendo (100%, since 2013)",
+   "ot": "Nintendo",
+   "known": "iQue Player, Chinese localisation and QA",
+   "note": "Started as a joint venture with Wei Yen. Since 2019 it has done QA and localisation, not consoles. Its headcount (2) is a long-standing rumour.",
+   "src": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/IQue"
+    ]
+   ]
+  },
+  "SRD": {
+   "disp": "SRD",
+   "r": "jp",
+   "loc": "Kyoto",
+   "y": 1979,
+   "own": "Nintendo (since 2022)",
+   "ot": "Nintendo",
+   "known": "Programming partner on Mario and Zelda since the NES era",
+   "web": "https://www.srd.co.jp/"
+  },
+  "Shiver Entertiment": {
+   "disp": "Shiver Entertainment",
+   "r": "na",
+   "loc": "Miami, US",
+   "y": 2012,
+   "own": "Nintendo (100%, since 2024)",
+   "ot": "Nintendo",
+   "known": "Hogwarts Legacy and Mortal Kombat 1 on Switch",
+   "note": "Port specialist bought from Embracer in 2024."
+  },
+  "Next Level Games": {
+   "disp": "Next Level Games",
+   "r": "na",
+   "loc": "Vancouver, Canada",
+   "y": 2002,
+   "own": "Nintendo (100%, since 2021)",
+   "ot": "Nintendo",
+   "known": "Luigi's Mansion 2 and 3, Mario Strikers, Punch-Out!! (Wii)",
+   "web": "https://www.nextlevelgames.com/",
+   "note": "The 2026 headcount (~183) is an estimate: 115% of the 2025 figure."
+  },
+  "HAL Laboratory": {
+   "disp": "HAL Laboratory",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1980,
+   "own": "Independent, works only with Nintendo",
+   "ot": "Affiliate",
+   "who": "Satoru Iwata †, Masahiro Sakurai (alumni), Shinya Kumazaki",
+   "known": "Kirby, EarthBound, Super Smash Bros. (N64)",
+   "web": "https://www.hallab.co.jp/",
+   "upcoming": "Spring 2027 on Switch 2",
+   "src": [
+    [
+     "Automaton",
+     "https://automaton-media.com/en/news/kirby-and-the-world-beyond-brand-new-3d-action-game-in-the-kirby-series-comes-to-nintendo-switch-2-in-spring-2027/"
+    ]
+   ]
+  },
+  "Intelligent Systems": {
+   "disp": "Intelligent Systems",
+   "r": "jp",
+   "loc": "Kyoto",
+   "y": 1986,
+   "own": "Independent, works only with Nintendo",
+   "ot": "Affiliate",
+   "who": "Toru Narihiro (founder)",
+   "known": "Fire Emblem, Paper Mario, Advance Wars, WarioWare",
+   "web": "https://intsys.co.jp/",
+   "ms": 89,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/fire-emblem-fortunes-weave/"
+    ]
+   ]
+  },
+  "Game Freak": {
+   "disp": "Game Freak",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1989,
+   "own": "Independent; co-owner of The Pokémon Company",
+   "ot": "Pokémon Co.",
+   "who": "Satoshi Tajiri, Ken Sugimori (founders)",
+   "known": "Pokémon",
+   "web": "https://www.gamefreak.co.jp/",
+   "ms": 89,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/pokemon-pokopia/"
+    ]
+   ]
+  },
+  "Grezzo": {
+   "disp": "Grezzo",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2006,
+   "own": "Independent",
+   "ot": "Affiliate",
+   "who": "Koichi Ishii (founder, Mana series)",
+   "known": "Zelda remakes (Ocarina 3D, Link's Awakening)",
+   "web": "https://www.grezzo.co.jp/",
+   "ms": 85,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/the-legend-of-zelda-echoes-of-wisdom/"
+    ]
+   ]
+  },
+  "Genious Sonority": {
+   "disp": "Genius Sonority",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2002,
+   "own": "Independent",
+   "ot": "Affiliate",
+   "known": "Pokémon Colosseum, The Denpa Men",
+   "web": "https://www.geniussonority.co.jp/"
+  },
+  "ACQUIRE Corp.": {
+   "disp": "ACQUIRE",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1994,
+   "own": "Kadokawa (100%, since 2024)",
+   "ot": "Kadokawa",
+   "who": "Takuma Endo (president)",
+   "known": "Tenchu, Octopath Traveler",
+   "web": "https://www.acquire.co.jp/",
+   "ms": 77,
+   "src": [
+    [
+     "Gematsu",
+     "https://gematsu.com/2024/02/kadokawa-corporation-acquires-acquire"
+    ],
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/mario-and-luigi-brothership/"
+    ]
+   ]
+  },
+  "Arika": {
+   "disp": "Arika",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1995,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "who": "Ichiro Mihara (founder)",
+   "known": "Street Fighter EX, Tetris 99, Endless Ocean",
+   "web": "https://www.arika.co.jp/",
+   "ms": 60,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/endless-ocean-luminous/"
+    ]
+   ]
+  },
+  "ArtePiazza": {
+   "disp": "ArtePiazza",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1989,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "known": "Dragon Quest remakes",
+   "web": "https://www.artepiazza.com/",
+   "ms": 84,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/super-mario-rpg/"
+    ]
+   ]
+  },
+  "Arzest": {
+   "disp": "Arzest",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2010,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "who": "Naoto Ohshima (co-founder, Sonic designer)",
+   "known": "Yoshi's New Island, Balan Wonderworld",
+   "web": "https://www.arzest.jp/",
+   "ms": 69,
+   "note": "The 31 staff in the March 2024 column looks like a copy of ArtePiazza's figure (80 the year before).",
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/hey-pikmin/"
+    ]
+   ]
+  },
+  "Bandai Namco Studios": {
+   "disp": "Bandai Namco Studios",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2012,
+   "own": "Bandai Namco Holdings (100%)",
+   "ot": "Bandai Namco",
+   "who": "Daisuke Uchiyama (president)",
+   "known": "Tekken, Ace Combat and the Tales of series; co-developer of Super Smash Bros. for Wii U / 3DS and Ultimate",
+   "web": "https://www.bandainamcostudios.com/",
+   "ms": 96,
+   "note": "Bandai Namco's development arm, split off from Namco Bandai Games in 2012. Its Malaysian studio (opened 2016) also shows up in Nintendo credits; the Singapore studio now belongs to Nintendo as Nintendo Studios Singapore. The 2025 figure (1,177) comes from Japan's pension database.",
+   "src": [
+    [
+     "Automaton (headcount 2024–25)",
+     "https://automaton-media.com/en/news/bandai-namco-studios-staff-silently-reduced-by-over-100-people-japan-pension-service-database-shows/"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Bandai_Namco_Studios"
+    ],
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-2026/"
+    ]
+   ]
+  },
+  "Camelot Software Planning": {
+   "disp": "Camelot Software Planning",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1990,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "who": "Hiroyuki and Shugo Takahashi (founders)",
+   "known": "Golden Sun, Mario Tennis, Mario Golf",
+   "web": "https://www.camelot.co.jp/",
+   "ms": 76,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/mario-tennis-fever/"
+    ]
+   ]
+  },
+  "Creatures Inc.": {
+   "disp": "Creatures",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1995,
+   "own": "Independent; co-owner of The Pokémon Company",
+   "ot": "Pokémon Co.",
+   "who": "Tsunekazu Ishihara (founder)",
+   "known": "Pokémon Trading Card Game, Detective Pikachu",
+   "web": "https://www.creatures.co.jp/",
+   "ms": 66,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/detective-pikachu-returns/"
+    ]
+   ]
+  },
+  "Eighting": {
+   "disp": "Eighting",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1993,
+   "known": "Bloody Roar, Kururin, Marvel vs. Capcom 3",
+   "web": "https://www.8ing.co.jp/",
+   "ms": 79,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/nintendo-switch-sports-resort/"
+    ]
+   ]
+  },
+  "Forever Entertainment": {
+   "disp": "Forever Entertainment",
+   "r": "eu",
+   "loc": "Gdynia, Poland",
+   "y": 2010,
+   "own": "Listed company (Warsaw)",
+   "ot": "Listed",
+   "known": "Panzer Dragoon: Remake, lots of Switch ports",
+   "ms": 77,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/donkey-kong-country-returns-hd/"
+    ]
+   ]
+  },
+  "Good-Feel": {
+   "disp": "Good-Feel",
+   "r": "jp",
+   "loc": "Kobe",
+   "y": 2005,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "who": "Etsunobu Ebisu (founder, ex-Konami)",
+   "known": "Kirby's Epic Yarn, Yoshi's Crafted World, Princess Peach Showtime!",
+   "web": "https://www.good-feel.co.jp/",
+   "ms": 80,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/yoshi-and-the-mysterious-book/"
+    ]
+   ]
+  },
+  "ILCA": {
+   "disp": "ILCA",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2010,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "known": "Pokémon Home, art support on Ace Combat and Nier",
+   "web": "https://www.ilca.co.jp/",
+   "ms": 73,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/pokemon-shining-pearl/"
+    ]
+   ]
+  },
+  "indieszero": {
+   "disp": "indieszero",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1997,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "who": "Masanobu Suzui (founder)",
+   "known": "Electroplankton, NES Remix, Theatrhythm",
+   "web": "https://indieszero.co.jp/",
+   "ms": 73,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/nintendo-world-championships-nes-edition/"
+    ]
+   ]
+  },
+  "Mages Inc.": {
+   "disp": "MAGES.",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2006,
+   "own": "Colopl",
+   "ot": "Colopl",
+   "who": "Chiyomaru Shikura (founder)",
+   "known": "Steins;Gate, Famicom Detective Club remakes",
+   "ms": 74,
+   "src": [
+    [
+     "Siliconera",
+     "https://www.siliconera.com/science-adventure-series-developer-mages-has-been-acquired-by-colopl/"
+    ],
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/emio-the-smiling-man-famicom-detective-club/"
+    ]
+   ]
+  },
+  "MercurySteam": {
+   "disp": "MercurySteam",
+   "r": "eu",
+   "loc": "Madrid, Spain",
+   "y": 2002,
+   "who": "Enric Álvarez (co-founder)",
+   "known": "Metroid Dread, Metroid: Samus Returns, Castlevania: Lords of Shadow",
+   "web": "https://www.mercurysteam.com/",
+   "upcoming": "28 January 2027 on Switch 2",
+   "note": "The studio has all but confirmed it is making Metroid Ravenous. Its 2026 headcount (~230) is an estimate: 89% of the 2025 figure.",
+   "src": [
+    [
+     "Nintendo Wire",
+     "https://nintendowire.com/news/2026/09/11/developer-mercurysteam-seemingly-confirms-it-is-developing-metroid-ravenous/"
+    ]
+   ]
+  },
+  "Panic Button": {
+   "disp": "Panic Button",
+   "r": "na",
+   "loc": "Austin, US",
+   "y": 2007,
+   "own": "Private",
+   "ot": "Ext. collaborator",
+   "who": "Craig Galley, D. Michael Traub, Russell Byrd, Aaron Smischney (founders)",
+   "known": "Doom, Wolfenstein II and Rocket League on Switch",
+   "web": "https://panicbuttongames.com/",
+   "note": "Made the free Switch 2 upgrades for Super Mario Odyssey, 3D World + Bowser's Fury, New Super Mario Bros. U Deluxe and Arms.",
+   "src": [
+    [
+     "VGC",
+     "https://www.videogameschronicle.com/news/honored-to-be-selected-texas-based-developer-hired-by-nintendo-for-switch-2-game-updates"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Panic_Button_(company)"
+    ]
+   ]
+  },
+  "PlatinumGames": {
+   "disp": "PlatinumGames",
+   "r": "jp",
+   "loc": "Osaka",
+   "y": 2007,
+   "own": "Independent (Tencent minority stake)",
+   "ot": "Ext. collaborator",
+   "who": "Founded by Shinji Mikami, Atsushi Inaba and Hideki Kamiya (ex-Clover Studio)",
+   "known": "Bayonetta, Astral Chain, NieR: Automata",
+   "web": "https://www.platinumgames.com/",
+   "ms": 80,
+   "note": "Headcount is shrinking: 356 in 2024, 250 in 2026.",
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/bayonetta-origins-cereza-and-the-lost-demon/"
+    ]
+   ]
+  },
+  "Spike Chunsoft": {
+   "disp": "Spike Chunsoft",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 2012,
+   "own": "Kadokawa group (via Dwango)",
+   "ot": "Kadokawa",
+   "who": "Koichi Nakamura (Chunsoft founder)",
+   "known": "Pokémon Mystery Dungeon, Danganronpa, Zero Escape",
+   "web": "https://www.spike-chunsoft.co.jp/",
+   "ms": 69,
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/pokemon-mystery-dungeon-rescue-team-dx/"
+    ]
+   ]
+  },
+  "Syn Sophia": {
+   "disp": "Syn Sophia",
+   "r": "jp",
+   "loc": "Tokyo",
+   "y": 1994,
+   "own": "Independent",
+   "ot": "Ext. collaborator",
+   "known": "Style Savvy, WWF No Mercy (as AKI)",
+   "web": "http://www.syn-sophia.co.jp/"
+  },
+  "Tantalus Media": {
+   "disp": "Tantalus Media",
+   "r": "oc",
+   "loc": "Melbourne, Australia",
+   "y": 1994,
+   "own": "Keywords Studios (since 2021)",
+   "ot": "Keywords",
+   "who": "Tom Crago (CEO)",
+   "known": "Twilight Princess HD, Skyward Sword HD",
+   "ms": 77,
+   "note": "The 2026 headcount (~88) is an estimate: 88% of the 2025 figure.",
+   "src": [
+    [
+     "Metacritic",
+     "https://www.metacritic.com/game/luigis-mansion-2-hd/"
+    ]
+   ]
+  }
+ },
+ "groups": {
+  "EPD #1": {
+   "former": true
+  },
+  "EPD #2": {
+   "former": true
+  },
+  "PG#3": {
+   "ms": 96,
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-2026/"
+   ],
+   "disp": "Nintendo EPD PG#3",
+   "known": "The Legend of Zelda (Breath of the Wild, Tears of the Kingdom)",
+   "who": "Eiji Aonuma (series producer)"
+  },
+  "PG#4": {
+   "ms": 79,
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/nintendo-switch-sports-resort/"
+   ],
+   "disp": "Nintendo EPD PG#4",
+   "known": "Nintendo Labo, Brain Age, Tomodachi Life"
+  },
+  "PG#5": {
+   "ms": 82,
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/splatoon-raiders/"
+   ],
+   "disp": "Nintendo EPD PG#5",
+   "known": "Animal Crossing, Splatoon",
+   "who": "Hisashi Nogami (producer)"
+  },
+  "PG#6": {
+   "ms": 78,
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/metroid-prime-4-beyond/"
+   ],
+   "disp": "Nintendo EPD PG#6",
+   "known": "Producing games made by studios outside Japan, such as Metroid Prime"
+  },
+  "PG#7": {
+   "disp": "Nintendo EPD PG#7",
+   "known": "Metroid (2D), WarioWare, Rhythm Heaven",
+   "who": "Yoshio Sakamoto (producer)",
+   "ms": 77,
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/tomodachi-life-living-the-dream/"
+   ]
+  },
+  "PG#8": {
+   "ms": 91,
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/donkey-kong-bananza/"
+   ],
+   "known": "Super Mario 3D World, Super Mario Odyssey, Donkey Kong Bananza"
+  },
+  "PG#9": {
+   "ms": 86,
+   "disp": "Nintendo EPD PG#9",
+   "known": "Mario Kart",
+   "who": "Kosuke Yabuki (director)",
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/mario-kart-world/"
+   ]
+  },
+  "PG#10": {
+   "ms": 85,
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/super-mario-bros-wonder-nintendo-switch-2-edition/"
+   ],
+   "disp": "Nintendo EPD PG#10",
+   "known": "2D Mario, Pikmin"
+  },
+  "SDPG": {
+   "disp": "Nintendo EPD SDPG",
+   "known": "Smart-device games"
+  },
+  "CoPG (former EPD#1+2)": {
+   "ms": 89,
+   "disp": "Nintendo EPD CoPG",
+   "known": "Games made with outside studios (Fire Emblem, Pokémon spin-offs, Mario sports)",
+   "src": [
+    "Metacritic",
+    "https://www.metacritic.com/game/fire-emblem-fortunes-weave/"
+   ]
+  }
+ },
+ "dates": {
+  "_about": "Release dates (YYYY-MM-DD) for games in data/thread.txt. Decide what counts as 'Out this year' vs 'Coming next'. Titles must match the thread text.",
+  "Animal Crossing: New Horizons 3.0 Version Update": "2026-01-15",
+  "Animal Crossing: New Horizons - Nintendo Switch 2 Edition": "2026-01-15",
+  "Mario Tennis Fever": "2026-02-12",
+  "Xenoblade Chronicles X: Definitive Edition - Nintendo Switch 2 Edition": "2026-02-19",
+  "Pokémon Pokopia": "2026-03-05",
+  "Pokémon Champions": "2026-04-08",
+  "Tomodachi Life: Living the Dream": "2026-04-16",
+  "Yoshi and the Mysterious Book": "2026-05-21",
+  "Star Fox": "2026-06-25",
+  "Rhythm Heaven Groove": "2026-07-02",
+  "Splatoon Raiders": "2026-07-23",
+  "Xenoblade Chronicles 2 - Nintendo Switch 2 Edition": "2026-07-30",
+  "Fire Emblem: Fortune's Weave": "2026-09-17",
+  "Nintendo Switch Sports Resort": "2026-10-22",
+  "The Legend of Zelda: Ocarina of Time (remake)": "2026-11-05",
+  "Xenoblade Chronicles 3 - Nintendo Switch 2 Edition": "2026-12-03",
+  "Metroid Ravenous": "2027-01-28",
+  "Super Mario Bros. Wonder: Nintendo Switch 2 Edition + Meetup in Bellabel Park": "2026-03-26",
+  "Pikmin 4: Nintendo Switch 2 Edition + Dandori Academy": "2026-11-12",
+  "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition": "2026-06-10",
+  "Hyrule Warriors: Age of Calamity – Definitive Edition": "2027-02-25",
+  "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV": "2025-07-24",
+  "Nintendo Switch 2 Welcome Tour": "2025-06-05"
+ },
+ "scores": {
+  "_about": "Metascores for games in the credits list (exact thread titles, after the parser's title fixes). Only verified scores.",
+  "The Legend of Zelda: Ocarina of Time (remake)": 96,
+  "Pokémon Pokopia": 89,
+  "Fire Emblem: Fortune's Weave": 89,
+  "Donkey Kong Bananza": 91,
+  "Mario Kart World": 86,
+  "Super Mario Bros. Wonder: Nintendo Switch 2 Edition + Meetup in Bellabel Park": 85,
+  "Animal Crossing: New Horizons - Nintendo Switch 2 Edition": 83,
+  "Rhythm Heaven Groove": 82,
+  "Metroid Prime 4: Beyond": 78,
+  "Pokémon Legends Z-A": 70,
+  "Yoshi and the Mysterious Book": 80,
+  "Nintendo Switch Sports Resort": 79,
+  "Tomodachi Life: Living the Dream": 77,
+  "Mario Tennis Fever": 76,
+  "Donkey Kong Country Returns HD": 77,
+  "Luigi's Mansion 2 HD": 77,
+  "The Legend of Zelda: Echoes of Wisdom": 85,
+  "Super Mario RPG": 84,
+  "Mario & Luigi: Brothership": 77,
+  "Bayonetta Origins: Cereza and the Lost Demon": 80,
+  "Emio - The Smiling Man: Famicom Detective Club": 74,
+  "Nintendo World Championships: NES Edition": 73,
+  "Pokémon Brilliant Diamond / Shining Pearl": 73,
+  "Pokémon Mystery Dungeon: Rescue Team DX": 69,
+  "Detective Pikachu Returns!": 66,
+  "Endless Ocean Luminous": 60,
+  "Splatoon Raiders": 82,
+  "Star Fox": 81,
+  "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV": 76
+ },
+ "people_fixes": {
+  "Takashi Tezuka": "Takashi Tezuka (stepped down as executive officer, June 2026)"
+ },
+ "credit_fixes": {
+  "_about": "Corrections to game credits from data/thread.txt, checked against end credits on Kyoto Report (kyoto-report.wikidot.com). 'set' replaces the EPD groups, 'add' adds teams from the sheet, 'other' adds outside companies.",
+  "Nintendo Switch Sports Resort": {
+   "set_groups": [
+    "PG#4"
+   ],
+   "add": [
+    "Eighting",
+    "Mario Club",
+    "Nintendo Studios Singapore",
+    "SRD",
+    "1-Up Studio",
+    "Nintendo European Research & Development (N.E.R.D.)",
+    "Bandai Namco Studios"
+   ],
+   "other": [
+    "Planeta",
+    "Digital Media Lab"
+   ],
+   "src": "https://kyoto-report.wikidot.com/forum/t-18366117/nintendo-switch-sports-resort"
+  },
+  "Rhythm Heaven Groove": {
+   "set_groups": [
+    "PG#4"
+   ],
+   "add": [
+    "Intelligent Systems",
+    "Mario Club"
+   ],
+   "other": [
+    "TNX"
+   ],
+   "src": "https://kyoto-report.wikidot.com/forum/t-18073412/rhythm-heaven-groove"
+  },
+  "Mario Kart World": {
+   "set_groups": [
+    "PG#9"
+   ],
+   "add": [
+    "MONOLITH SOFTWARE",
+    "1-Up Studio",
+    "Mario Club"
+   ],
+   "src": "https://kyoto-report.wikidot.com/mario-kart-world"
+  },
+  "The Legend of Zelda: Tears of the Kingdom": {
+   "set_groups": [
+    "PG#3"
+   ],
+   "add": [
+    "MONOLITH SOFTWARE",
+    "SRD",
+    "Nintendo European Research & Development (N.E.R.D.)",
+    "Mario Club",
+    "Nintendo Pictures"
+   ],
+   "src": "https://kyoto-report.wikidot.com/the-legend-of-zelda-tears-of-the-kingdom"
+  },
+  "The Legend of Zelda: Ocarina of Time (remake)": {
+   "set_groups": [
+    "PG#3"
+   ],
+   "add": [
+    "MONOLITH SOFTWARE",
+    "SRD",
+    "Nintendo European Research & Development (N.E.R.D.)",
+    "Nintendo Pictures",
+    "1-Up Studio",
+    "Nintendo Studios Singapore",
+    "Mario Club",
+    "iQue",
+    "Bandai Namco Studios"
+   ],
+   "src": "https://kyoto-report.wikidot.com/forum/t-18366114/the-legend-of-zelda:ocarina-of-time-2026"
+  },
+  "Splatoon Raiders": {
+   "set_groups": [
+    "PG#5"
+   ],
+   "add": [
+    "Nintendo Studios Singapore",
+    "MONOLITH SOFTWARE",
+    "SRD",
+    "Mario Club",
+    "iQue",
+    "Bandai Namco Studios"
+   ],
+   "other": [
+    "Agni-Flare",
+    "Digital Media Lab"
+   ],
+   "src": "https://kyoto-report.wikidot.com/forum/t-18184416/splatoon-raiders"
+  },
+  "Tomodachi Life: Living the Dream": {
+   "set_groups": [
+    "PG#7"
+   ],
+   "add": [
+    "Intelligent Systems",
+    "Nintendo European Research & Development (N.E.R.D.)",
+    "Nintendo Studios Singapore",
+    "Mario Club",
+    "iQue",
+    "Bandai Namco Studios"
+   ],
+   "other": [
+    "Digital Media Lab",
+    "Access Games"
+   ],
+   "src": "https://kyoto-report.wikidot.com/forum/t-17716230/tomodachi-life:living-the-dream"
+  }
+ },
+ "mc": {
+  "_about": "Metascores checked on metacritic.com (Nov 2026). Key: exact thread title, or 'title|platform' when the same title is on two systems. Value: [score or null, page URL, year if the thread has none].",
+  "Mario & Luigi: Superstar Saga + Bowser's Minions": [
+   81,
+   "https://www.metacritic.com/game/mario-and-luigi-superstar-saga-plus-bowsers/",
+   2017
+  ],
+  "Kirby's Extra Epic Yarn": [
+   79,
+   "https://www.metacritic.com/game/kirbys-extra-epic-yarn/",
+   2019
+  ],
+  "Pikmin Bloom": [
+   65,
+   "https://www.metacritic.com/game/pikmin-bloom/",
+   2021
+  ],
+  "Miitomo": [
+   72,
+   "https://www.metacritic.com/game/miitomo/",
+   2016
+  ],
+  "Dragalia Lost": [
+   69,
+   "https://www.metacritic.com/game/dragalia-lost/",
+   2018
+  ],
+  "Animal Crossing: Pocket Camp": [
+   72,
+   "https://www.metacritic.com/game/animal-crossing-pocket-camp/",
+   2017
+  ],
+  "Mario Kart Tour": [
+   59,
+   "https://www.metacritic.com/game/mario-kart-tour/",
+   2019
+  ],
+  "Super Mario Run": [
+   76,
+   "https://www.metacritic.com/game/super-mario-run/",
+   2016
+  ],
+  "Dillon's Dead-Heat Breakers": [
+   69,
+   "https://www.metacritic.com/game/dillons-dead-heat-breakers/",
+   2018
+  ],
+  "WarioWare Gold": [
+   78,
+   "https://www.metacritic.com/game/warioware-gold/",
+   2018
+  ],
+  "Tank Troopers": [
+   64,
+   "https://www.metacritic.com/game/tank-troopers/",
+   2017
+  ],
+  "Miitopia|3DS": [
+   67,
+   "https://www.metacritic.com/game/miitopia/",
+   2017
+  ],
+  "Miitopia|Switch": [
+   71,
+   "https://www.metacritic.com/game/miitopia/"
+  ],
+  "Metroid: Samus Returns": [
+   85,
+   "https://www.metacritic.com/game/metroid-samus-returns/",
+   2017
+  ],
+  "Fire Emblem Warriors|Switch": [
+   74,
+   "https://www.metacritic.com/game/fire-emblem-warriors/"
+  ],
+  "Fire Emblem Warriors|3DS": [
+   69,
+   "https://www.metacritic.com/game/fire-emblem-warriors/",
+   2017
+  ],
+  "Sushi Striker: The Way of Sushido|Switch": [
+   76,
+   "https://www.metacritic.com/game/sushi-striker-the-way-of-sushido/"
+  ],
+  "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey": [
+   84,
+   "https://www.metacritic.com/game/mario-and-luigi-bowsers-inside-story-plus-bowser/",
+   2019
+  ],
+  "Fire Emblem Heroes": [
+   72,
+   "https://www.metacritic.com/game/fire-emblem-heroes/",
+   2017
+  ],
+  "Dr. Mario World": [
+   58,
+   "https://www.metacritic.com/game/dr-mario-world/",
+   2019
+  ],
+  "Captain Toad: Treasure Tracker|3DS": [
+   79,
+   "https://www.metacritic.com/game/3ds/captain-toad-treasure-tracker/critic-reviews",
+   2018
+  ],
+  "Luigi's Mansion|3DS": [
+   74,
+   "https://www.metacritic.com/game/luigis-mansion/critic-reviews/?platform=3ds",
+   2018
+  ],
+  "Poochy & Yoshi's Woolly World": [
+   77,
+   "https://www.metacritic.com/game/yoshis-woolly-world/critic-reviews/?platform=3ds",
+   2017
+  ],
+  "1-2 Switch": [
+   58,
+   "https://www.metacritic.com/game/1-2-switch/"
+  ],
+  "The Legend of Zelda: Breath of the Wild": [
+   97,
+   "https://www.metacritic.com/game/the-legend-of-zelda-breath-of-the-wild/"
+  ],
+  "The Legend of Zelda: Breath of the Wild: Nintendo Switch 2 Edition": [
+   94,
+   "https://www.metacritic.com/game/the-legend-of-zelda-breath-of-the-wild-nintendo/"
+  ],
+  "Mario Kart 8 Deluxe": [
+   92,
+   "https://www.metacritic.com/game/mario-kart-8-deluxe/"
+  ],
+  "ARMS": [
+   77,
+   "https://www.metacritic.com/game/arms/"
+  ],
+  "Splatoon 2": [
+   83,
+   "https://www.metacritic.com/game/splatoon-2/"
+  ],
+  "Xenoblade Chronicles 2": [
+   83,
+   "https://www.metacritic.com/game/xenoblade-chronicles-2/"
+  ],
+  "Bayonetta 1+2": [
+   90,
+   "https://www.metacritic.com/game/bayonetta-plus-bayonetta-2/"
+  ],
+  "Nintendo Labo: Toy Con 02 - Robot Kit": [
+   68,
+   "https://www.metacritic.com/game/switch/nintendo-labo-toycon-02-robot-kit"
+  ],
+  "Nintendo Labo: Toy Con 03 - Vehicle Kit": [
+   69,
+   "https://www.metacritic.com/game/nintendo-labo-toycon-03-vehicle-kit/"
+  ],
+  "Xenoblade Chronicles 2 - Nintendo Switch 2 Edition": [
+   86,
+   "https://www.metacritic.com/game/xenoblade-chronicles-2-nintendo-switch-2-edition/"
+  ],
+  "Snipperclips": [
+   80,
+   "https://www.metacritic.com/game/snipperclips-cut-it-out-together/"
+  ],
+  "Nintendo Labo: Toy Con 01 - Variety Kit": [
+   77,
+   "https://www.metacritic.com/game/nintendo-labo-toycon-01-variety-kit/"
+  ],
+  "Kirby Star Allies": [
+   73,
+   "https://www.metacritic.com/game/kirby-star-allies/"
+  ],
+  "Donkey Kong Country Tropical Freeze": [
+   86,
+   "https://www.metacritic.com/game/donkey-kong-country-tropical-freeze/critic-reviews/?platform=nintendo-switch"
+  ],
+  "Hyrule Warriors Deluxe": [
+   78,
+   "https://www.metacritic.com/game/hyrule-warriors-definitive-edition/critic-reviews/?platform=nintendo-switch"
+  ],
+  "Mario Tennis Aces": [
+   75,
+   "https://www.metacritic.com/game/mario-tennis-aces/"
+  ],
+  "Captain Toad: Treasure Tracker|Switch": [
+   82,
+   "https://www.metacritic.com/game/captain-toad-treasure-tracker/critic-reviews/?platform=nintendo-switch"
+  ],
+  "Captain Toad: Treasure Tracker - Special Episode": [
+   81,
+   "https://www.metacritic.com/game/captain-toad-treasure-tracker-special-episode/"
+  ],
+  "Go Vacation": [
+   62,
+   "https://www.metacritic.com/game/go-vacation/critic-reviews/?platform=nintendo-switch"
+  ],
+  "Octopath Traveler": [
+   83,
+   "https://www.metacritic.com/game/octopath-traveler/"
+  ],
+  "Xenoblade Chronicles 2: Torna ~ The Golden Country": [
+   80,
+   "https://www.metacritic.com/game/xenoblade-chronicles-2-torna-the-golden-country/"
+  ],
+  "Super Mario Party": [
+   76,
+   "https://www.metacritic.com/game/super-mario-party/"
+  ],
+  "Pokémon: Let's Go": [
+   79,
+   "https://www.metacritic.com/game/pokemon-lets-go-pikachu/"
+  ],
+  "Super Smash Bros. Ultimate": [
+   93,
+   "https://www.metacritic.com/game/super-smash-bros-ultimate/"
+  ],
+  "New Super Mario Bros. U Deluxe": [
+   80,
+   "https://www.metacritic.com/game/new-super-mario-bros-u-deluxe/"
+  ],
+  "Fitness Boxing": [
+   66,
+   "https://www.metacritic.com/game/fitness-boxing/critic-reviews/?platform=nintendo-switch"
+  ],
+  "Tetris 99": [
+   83,
+   "https://www.metacritic.com/game/tetris-99/"
+  ],
+  "Super Mario 35": [
+   75,
+   "https://www.metacritic.com/game/super-mario-bros-35/"
+  ],
+  "Yoshi's Crafted World": [
+   79,
+   "https://www.metacritic.com/game/yoshis-crafted-world/"
+  ],
+  "Nintendo Labo: Toy Con 04 - VR Kit": [
+   71,
+   "https://www.metacritic.com/game/nintendo-labo-toycon-04-vr-kit/critic-reviews/"
+  ],
+  "BoxBoy! + BoxGirl!": [
+   81,
+   "https://www.metacritic.com/game/boxboy-plus-boxgirl/"
+  ],
+  "Cadence of Hyrule – Crypt of the NecroDancer Featuring The Legend of Zelda": [
+   85,
+   "https://www.metacritic.com/game/cadence-of-hyrule-crypt-of-the-necrodancer/"
+  ],
+  "Super Mario Maker 2": [
+   88,
+   "https://www.metacritic.com/game/super-mario-maker-2/"
+  ],
+  "Dragon Quest Builders 2": [
+   85,
+   "https://www.metacritic.com/game/dragon-quest-builders-2/critic-reviews/?platform=nintendo-switch"
+  ],
+  "Fire Emblem: Three Houses": [
+   89,
+   "https://www.metacritic.com/game/fire-emblem-three-houses/"
+  ],
+  "Marvel Ultimate Alliance 3: Black Order": [
+   73,
+   "https://www.metacritic.com/game/marvel-ultimate-alliance-3-the-black-order/"
+  ],
+  "Astral Chain": [
+   87,
+   "https://www.metacritic.com/game/astral-chain/"
+  ],
+  "Super Kirby Clash": [
+   74,
+   "https://www.metacritic.com/game/super-kirby-clash/"
+  ],
+  "Daemon X Machina": [
+   69,
+   "https://www.metacritic.com/game/daemon-x-machina/"
+  ],
+  "The Legend of Zelda: Link's Awakening": [
+   87,
+   "https://www.metacritic.com/game/the-legend-of-zelda-links-awakening/"
+  ],
+  "Dragon Quest XI S ~ Echoes of an Elusive Age - Definitive Edition": [
+   91,
+   "https://www.metacritic.com/game/dragon-quest-xi-s-echoes-of-an-elusive-age/critic-reviews/"
+  ],
+  "Ring Fit Adventure": [
+   83,
+   "https://www.metacritic.com/game/ring-fit-adventure/"
+  ],
+  "Luigi's Mansion 3": [
+   86,
+   "https://www.metacritic.com/game/luigis-mansion-3/"
+  ],
+  "The Stretchers": [
+   75,
+   "https://www.metacritic.com/game/switch/the-stretchers"
+  ],
+  "Pokémon: Sword / Pokémon: Shield": [
+   80,
+   "https://www.metacritic.com/game/pokemon-sword/"
+  ],
+  "Dr. Kawashima’s Brain Training for Nintendo Switch": [
+   64,
+   "https://www.metacritic.com/game/dr-kawashimas-brain-training-for-nintendo-switch/"
+  ],
+  "Tokyo Mirage Sessions ♯FE Encore": [
+   81,
+   "https://www.metacritic.com/game/tokyo-mirage-sessions-fe-encore/"
+  ],
+  "Good Job!": [
+   78,
+   "https://www.metacritic.com/game/switch/good-job!"
+  ],
+  "Xenoblade: Definitive Edition": [
+   89,
+   "https://www.metacritic.com/game/xenoblade-chronicles-definitive-edition/"
+  ],
+  "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition": [
+   86,
+   "https://www.metacritic.com/game/xenoblade-chronicles-definitive-edition/critic-reviews/?platform=nintendo-switch-2"
+  ],
+  "Clubhouse Games / 51 Worldwide Games": [
+   82,
+   "https://www.metacritic.com/game/clubhouse-games-51-worldwide-classics/"
+  ],
+  "Paper Mario: The Origami King": [
+   80,
+   "https://www.metacritic.com/game/paper-mario-the-origami-king/"
+  ],
+  "Super Mario 3D All-Stars": [
+   82,
+   "https://www.metacritic.com/game/super-mario-3d-all-stars/"
+  ],
+  "Kirby Fighters 2": [
+   65,
+   "https://www.metacritic.com/game/kirby-fighters-2/"
+  ],
+  "Mario Kart Live: Home Circuit": [
+   75,
+   "https://www.metacritic.com/game/switch/mario-kart-live-home-circuit"
+  ],
+  "Part Time UFO": [
+   78,
+   "https://www.metacritic.com/game/switch/part-time-ufo"
+  ],
+  "Pikmin 3 Deluxe": [
+   85,
+   "https://www.metacritic.com/game/pikmin-3-deluxe/"
+  ],
+  "Hyrule Warriors: Age of Calamity": [
+   78,
+   "https://www.metacritic.com/game/hyrule-warriors-age-of-calamity/"
+  ],
+  "Fitness Boxing 2: Rhythm & Exercise": [
+   66,
+   "https://www.metacritic.com/game/fitness-boxing-2-rhythm-and-exercise/"
+  ],
+  "Super Mario 3D World + Bowser's Fury": [
+   89,
+   "https://www.metacritic.com/game/super-mario-3d-world-plus-bowsers-fury/"
+  ],
+  "Bravely Default II": [
+   76,
+   "https://www.metacritic.com/game/bravely-default-ii/"
+  ],
+  "New Pokémon Snap": [
+   79,
+   "https://www.metacritic.com/game/new-pokemon-snap/"
+  ],
+  "Famicom Detective Club: The Missing Heir & Famicom Detective Club: The Girl Who Stands Behind": [
+   74,
+   "https://www.metacritic.com/game/famicom-detective-club-the-missing-heir/"
+  ],
+  "DC Super Hero Girls: Teen Power": [
+   66,
+   "https://www.metacritic.com/game/switch/dc-super-hero-girls-teen-power"
+  ],
+  "Game Builder Garage": [
+   77,
+   "https://www.metacritic.com/game/game-builder-garage/"
+  ],
+  "Mario Golf: Super Rush": [
+   70,
+   "https://www.metacritic.com/game/mario-golf-super-rush/"
+  ],
+  "The Legend of Zelda: Skyward Sword HD": [
+   81,
+   "https://www.metacritic.com/game/the-legend-of-zelda-skyward-sword-hd/"
+  ],
+  "WarioWare: Get it Together!": [
+   76,
+   "https://www.metacritic.com/game/warioware-get-it-together/"
+  ],
+  "Metroid Dread": [
+   88,
+   "https://www.metacritic.com/game/metroid-dread/"
+  ],
+  "Mario Party Superstars": [
+   80,
+   "https://www.metacritic.com/game/mario-party-superstars/"
+  ],
+  "Animal Crossing: New Horizons Expansion": [
+   82,
+   "https://www.metacritic.com/game/animal-crossing-new-horizons-happy-home-paradise/"
+  ],
+  "Shin Megami Tensei V": [
+   84,
+   "https://www.metacritic.com/game/shin-megami-tensei-v/"
+  ],
+  "Big Brain Academy: Brain vs. Brain": [
+   73,
+   "https://www.metacritic.com/game/big-brain-academy-brain-vs-brain/"
+  ],
+  "Pokémon Legends: Arceus": [
+   83,
+   "https://www.metacritic.com/game/pokemon-legends-arceus/"
+  ],
+  "Triangle Strategy": [
+   83,
+   "https://www.metacritic.com/game/switch/triangle-strategy"
+  ],
+  "Kirby and the Forgotten Land": [
+   85,
+   "https://www.metacritic.com/game/kirby-and-the-forgotten-land/"
+  ],
+  "Kirby and the Forgotten Land: Nintendo Switch 2 Edition + Star-Crossed World": [
+   83,
+   "https://www.metacritic.com/game/kirby-and-the-forgotten-land-nintendo-switch-2/"
+  ],
+  "Nintendo Switch Sports": [
+   72,
+   "https://www.metacritic.com/game/nintendo-switch-sports/"
+  ],
+  "Mario Strikers: Battle League": [
+   73,
+   "https://www.metacritic.com/game/mario-strikers-battle-league/"
+  ],
+  "Fire Emblem Warriors: Three Hopes": [
+   80,
+   "https://www.metacritic.com/game/fire-emblem-warriors-three-hopes/"
+  ],
+  "Live A Live": [
+   81,
+   "https://www.metacritic.com/game/live-a-live/"
+  ],
+  "Xenoblade Chronicles 3": [
+   89,
+   "https://www.metacritic.com/game/xenoblade-chronicles-3/"
+  ],
+  "Kirby's Dream Buffet": [
+   67,
+   "https://www.metacritic.com/game/kirbys-dream-buffet/"
+  ],
+  "Splatoon 3": [
+   83,
+   "https://www.metacritic.com/game/splatoon-3/"
+  ],
+  "Splatoon 3: Side Order": [
+   78,
+   "https://www.metacritic.com/game/splatoon-3-expansion-pass-wave-2-side-order/"
+  ],
+  "Bayonetta 3": [
+   86,
+   "https://www.metacritic.com/game/bayonetta-3/"
+  ],
+  "Sushi Striker: The Way of Sushido|3DS": [
+   null,
+   "https://metacritic.com/game/3ds/sushi-striker-the-way-of-sushido",
+   2018
+  ],
+  "Animal Crossing: New Horizons": [
+   90,
+   "https://www.metacritic.com/game/animal-crossing-new-horizons/"
+  ],
+  "Pokémon Champions": [
+   67,
+   "https://www.metacritic.com/game/pokemon-champions/"
+  ],
+  "Xenoblade Chronicles X: Definitive Edition - Nintendo Switch 2 Edition": [
+   79,
+   "https://www.metacritic.com/game/xenoblade-chronicles-x-definitive-edition/critic-reviews/?platform=nintendo-switch-2"
+  ],
+  "The Legend of Zelda: Tears of the Kingdom: Nintendo Switch 2 Edition": [
+   95,
+   "https://www.metacritic.com/game/the-legend-of-zelda-tears-of-the-kingdom-nintendo/"
+  ],
+  "The Legend of Zelda: Tears of the Kingdom": [
+   96,
+   "https://www.metacritic.com/game/the-legend-of-zelda-tears-of-the-kingdom/"
+  ],
+  "Super Mario Odyssey": [
+   97,
+   "https://www.metacritic.com/game/super-mario-odyssey/"
+  ],
+  "Mario + Rabbids: Sparks of Hope": [
+   85,
+   "https://www.metacritic.com/game/mario-plus-rabbids-sparks-of-hope/"
+  ],
+  "Pokémon Scarlet & Violet": [
+   72,
+   "https://www.metacritic.com/game/pokemon-scarlet/"
+  ],
+  "Fire Emblem Engage": [
+   80,
+   "https://www.metacritic.com/game/fire-emblem-engage/"
+  ],
+  "Metroid Prime Remastered": [
+   94,
+   "https://www.metacritic.com/game/metroid-prime-remastered/"
+  ],
+  "Kirby's Return to Dream Land DX": [
+   79,
+   "https://www.metacritic.com/game/kirbys-return-to-dream-land-deluxe/"
+  ],
+  "Advance Wars 1+2: Re-Boot Camp": [
+   83,
+   "https://www.metacritic.com/game/advance-wars-1-plus-2-re-boot-camp/"
+  ],
+  "Pikmin 1 + 2": [
+   79,
+   "https://www.metacritic.com/game/pikmin-1-plus-2/"
+  ],
+  "Pikmin 4": [
+   87,
+   "https://www.metacritic.com/game/pikmin-4/"
+  ],
+  "Everybody 1-2 Switch": [
+   54,
+   "https://www.metacritic.com/game/everybody-1-2-switch/"
+  ],
+  "Baten Kaitos I & II HD Remaster": [
+   77,
+   "https://www.metacritic.com/game/baten-kaitos-i-and-ii-hd-remaster/"
+  ],
+  "F-Zero 99": [
+   82,
+   "https://www.metacritic.com/game/f-zero-99/"
+  ],
+  "Super Mario Bros. Wonder": [
+   92,
+   "https://www.metacritic.com/game/super-mario-bros-wonder/"
+  ],
+  "WarioWare: Move It!": [
+   75,
+   "https://www.metacritic.com/game/warioware-move-it/"
+  ],
+  "Another Code: Recollection": [
+   73,
+   "https://www.metacritic.com/game/another-code-recollection/"
+  ],
+  "Mario vs. Donkey Kong": [
+   76,
+   "https://www.metacritic.com/game/mario-vs-donkey-kong-2024/"
+  ],
+  "Princess Peach: Showtime!": [
+   74,
+   "https://www.metacritic.com/game/princess-peach-showtime/"
+  ],
+  "Paper Mario: The Thousand Year Door (remake)": [
+   88,
+   "https://www.metacritic.com/game/paper-mario-the-thousand-year-door/"
+  ],
+  "Super Mario Party Jamboree": [
+   82,
+   "https://www.metacritic.com/game/super-mario-party-jamboree/"
+  ],
+  "Fitness Boxing 3: Your Personal Trainer": [
+   70,
+   "https://www.metacritic.com/game/fitness-boxing-3-your-personal-trainer/"
+  ],
+  "Xenoblade Chronicles X: Definitive Edition": [
+   87,
+   "https://www.metacritic.com/game/xenoblade-chronicles-x-definitive-edition/"
+  ],
+  "Super Mario Galaxy + Super Mario Galaxy 2": [
+   87,
+   "https://www.metacritic.com/game/super-mario-galaxy-plus-super-mario-galaxy-2/"
+  ],
+  "Nintendo Switch 2 Welcome Tour": [
+   54,
+   "https://www.metacritic.com/game/nintendo-switch-2-welcome-tour/"
+  ],
+  "Drag x Drive": [
+   60,
+   "https://www.metacritic.com/game/drag-x-drive/"
+  ],
+  "Pokémon Legends Z-A: Nintendo Switch 2 Edition": [
+   78,
+   "https://www.metacritic.com/game/pokemon-legends-z-a/"
+  ],
+  "Pokémon Legends Z-A: Mega Dimensions": [
+   65,
+   "https://www.metacritic.com/game/pokemon-legends-z-a-mega-dimension/"
+  ],
+  "Hyrule Warriors: Age of Imprisonment": [
+   79,
+   "https://www.metacritic.com/game/hyrule-warriors-age-of-imprisonment/"
+  ],
+  "Kirby Air Riders": [
+   79,
+   "https://www.metacritic.com/game/kirby-air-riders/"
+  ],
+  "Metroid Prime 4: Beyond: Nintendo Switch 2 Edition": [
+   78,
+   "https://www.metacritic.com/game/metroid-prime-4-beyond/"
+  ],
+  "Pokémon Friends": [
+   62,
+   "https://www.metacritic.com/game/pokemon-friends/"
+  ],
+  "Metroid Prime 4: Beyond": [
+   78,
+   "https://www.metacritic.com/game/metroid-prime-4-beyond/"
+  ],
+  "The Legend of Zelda: Ocarina of Time (remake)": [
+   96,
+   "https://www.metacritic.com/game/the-legend-of-zelda-ocarina-of-time-2026/"
+  ],
+  "Pokémon Pokopia": [
+   89,
+   "https://www.metacritic.com/game/pokemon-pokopia/"
+  ],
+  "Fire Emblem: Fortune's Weave": [
+   89,
+   "https://www.metacritic.com/game/fire-emblem-fortunes-weave/"
+  ],
+  "Donkey Kong Bananza": [
+   91,
+   "https://www.metacritic.com/game/donkey-kong-bananza/"
+  ],
+  "Donkey Kong Bananza: DK Island + Emerald Rush": [
+   67,
+   "https://www.metacritic.com/game/donkey-kong-bananza-dk-island-and-emerald-rush/"
+  ],
+  "Mario Kart World": [
+   86,
+   "https://www.metacritic.com/game/mario-kart-world/"
+  ],
+  "Rhythm Heaven Groove": [
+   82,
+   "https://www.metacritic.com/game/rhythm-heaven-groove/"
+  ],
+  "Yoshi and the Mysterious Book": [
+   80,
+   "https://www.metacritic.com/game/yoshi-and-the-mysterious-book/"
+  ],
+  "Nintendo Switch Sports Resort": [
+   79,
+   "https://www.metacritic.com/game/nintendo-switch-sports-resort/"
+  ],
+  "Tomodachi Life: Living the Dream": [
+   77,
+   "https://www.metacritic.com/game/tomodachi-life-living-the-dream/"
+  ],
+  "Mario Tennis Fever": [
+   76,
+   "https://www.metacritic.com/game/mario-tennis-fever/"
+  ],
+  "The Legend of Zelda: Echoes of Wisdom": [
+   85,
+   "https://www.metacritic.com/game/the-legend-of-zelda-echoes-of-wisdom/"
+  ],
+  "Super Mario RPG": [
+   84,
+   "https://www.metacritic.com/game/super-mario-rpg/"
+  ],
+  "Mario & Luigi: Brothership": [
+   77,
+   "https://www.metacritic.com/game/mario-and-luigi-brothership/"
+  ],
+  "Bayonetta Origins: Cereza and the Lost Demon": [
+   80,
+   "https://www.metacritic.com/game/bayonetta-origins-cereza-and-the-lost-demon/"
+  ],
+  "Detective Pikachu Returns!": [
+   66,
+   "https://www.metacritic.com/game/detective-pikachu-returns/"
+  ],
+  "Endless Ocean Luminous": [
+   60,
+   "https://www.metacritic.com/game/endless-ocean-luminous/"
+  ],
+  "Splatoon Raiders": [
+   82,
+   "https://www.metacritic.com/game/splatoon-raiders/"
+  ],
+  "Star Fox": [
+   81,
+   "https://www.metacritic.com/game/star-fox/critic-reviews/?platform=nintendo-switch-2"
+  ],
+  "Pokémon Legends Z-A": [
+   70,
+   "https://www.metacritic.com/game/pokemon-legends-z-a/critic-reviews/?platform=nintendo-switch"
+  ],
+  "Animal Crossing: New Horizons - Nintendo Switch 2 Edition": [
+   83,
+   "https://www.metacritic.com/game/animal-crossing-new-horizons/"
+  ],
+  "Super Mario Bros. Wonder: Nintendo Switch 2 Edition + Meetup in Bellabel Park": [
+   85,
+   "https://www.metacritic.com/game/super-mario-bros-wonder-nintendo-switch-2-edition/"
+  ],
+  "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV": [
+   76,
+   "https://www.metacritic.com/game/super-mario-party-jamboree-nintendo-switch-2/"
+  ],
+  "Pokémon Brilliant Diamond / Shining Pearl": [
+   73,
+   "https://www.metacritic.com/game/pokemon-brilliant-diamond/"
+  ]
+ }
+}

@@ -1,0 +1,2828 @@
+{
+ "groups": {
+  "EPD #1": {
+   "head": "Nintendo EPD Production Group No. 1 (External R&D) (Combined with Group 2 as Co-Production Group)",
+   "producers": [
+    "Hitoshi Yamagami (former)",
+    "Akira Kinashi"
+   ],
+   "leads": [
+    "Genki Yokota",
+    "Kaori Ando",
+    "Makoto Okazaki",
+    "Tomoko Nakayama",
+    "Ryuichi Nakada"
+   ],
+   "series": [
+    "Fire Emblem",
+    "Pokémon",
+    "Kirby",
+    "Xenoblade"
+   ],
+   "recent": [
+    "Kirby and the Forgotten Land",
+    "Fire Emblem Warriors: Three Hopes",
+    "Xenoblade Chronicles 3",
+    "Kirby's Dream Buffet"
+   ]
+  },
+  "CoPG (former EPD#1+2)": {
+   "head": "Nintendo EPD Co-Production Group (External R&D)",
+   "producers": [
+    "Toyokazu Nonaka",
+    "Akira Kinashi",
+    "Shinya Saito"
+   ],
+   "leads": [
+    "Genki Yokota",
+    "Toshiaki Suzuki",
+    "Nobuo Matsumiya",
+    "Akira Otani",
+    "Takao Nakano"
+   ],
+   "series": [
+    "Most third-party collaborations"
+   ],
+   "recent": [
+    "Super Mario Party Jamboree",
+    "Mario & Luigi: Brothership",
+    "Donkey Kong Country Returns HD",
+    "Xenoblade Chronicles X DE",
+    "Pokemon Legends Z-A",
+    "Kirby: Air Riders",
+    "Mario Tennis Fever"
+   ],
+   "current": [
+    "Pokémon Pokopia (DLC)",
+    "Fire Emblem: Fortune's Weave",
+    "Kirby and the World Beyond",
+    "Xenoblade Genesis"
+   ]
+  },
+  "PG#3": {
+   "head": "Nintendo EPD Production Group No. 3",
+   "producers": [
+    "Eiji Aonuma",
+    "Daiki Iwamoto",
+    "Makoto Miyanaga (former?)"
+   ],
+   "leads": [
+    "Hidemaro Fujibayashi",
+    "Tomomi Sano"
+   ],
+   "series": [
+    "The Legend of Zelda"
+   ],
+   "recent": [
+    "The Legend of Zelda: Link's Awakening (w/ Grezzo)",
+    "The Legend of Zelda: Skyward Sword HD (w/ Tantalus)",
+    "The Legend of Zelda: Tears of the Kingdom"
+   ],
+   "current": [
+    "Ocarina of Time remake"
+   ]
+  },
+  "PG#4": {
+   "head": "Nintendo EPD Production Group No. 4",
+   "producers": [
+    "Kouichi Kawamoto",
+    "Takayuki Shimamura"
+   ],
+   "leads": [
+    "Norihiro Ito",
+    "Tsubasa Sakaguchi",
+    "Kenta Kubo"
+   ],
+   "series": [
+    "Brain Age",
+    "Miitopia",
+    "Nintendo Labo"
+   ],
+   "recent": [
+    "Big Brain Academy: Brain vs. Brain (w/Indieszero)",
+    "Nintendo Switch Sports",
+    "Everybody 1-2 Switch",
+    "Nintendo World Championships",
+    "Nintendo Switch 2 Welcome Tour",
+    "Tomodachi Life: Living the Dream",
+    "Rhythm Heaven Groove"
+   ],
+   "current": [
+    "Nintendo Switch Sports Resort",
+    "Rockstock?"
+   ]
+  },
+  "PG#5": {
+   "head": "Nintendo EPD Production Group No. 5",
+   "producers": [
+    "Hisashi Nogami",
+    "Aya Kyogoku"
+   ],
+   "leads": [
+    "Aya Kyogoku",
+    "Yusuke Amano",
+    "Shintaro Sato",
+    "Seita Inoue",
+    "Yoshinori Konishi"
+   ],
+   "series": [
+    "Animal Crossing",
+    "Splatoon"
+   ],
+   "recent": [
+    "Splatoon 2",
+    "Animal Crossing: New Horizons",
+    "Splatoon 3",
+    "Drag x Drive"
+   ],
+   "current": [
+    "Splatoon Raiders"
+   ]
+  },
+  "PG#6": {
+   "head": "Nintendo EPD Production Group No. 6 (External R&D)",
+   "producers": [
+    "Kensuke Tanabe (former)",
+    "Risa Tabata"
+   ],
+   "leads": [
+    "Goro Abe (former)",
+    "Akiya Sakamoto"
+   ],
+   "series": [
+    "Metroid Prime",
+    "Donkey Kong Country",
+    "Luigi's Mansion",
+    "WarioWare",
+    "Paper Mario"
+   ],
+   "recent": [
+    "Metroid Prime Remastered",
+    "WarioWare: Move It!",
+    "Paper Mario TTYD",
+    "Luigi's Mansion 2 HD",
+    "Metroid Prime 4"
+   ],
+   "current": []
+  },
+  "PG#7": {
+   "head": "Nintendo EPD Production Group No. 7",
+   "producers": [
+    "Katsuya Yamano",
+    "Yoshio Sakamoto"
+   ],
+   "leads": [
+    "Takehiko Hosokawa",
+    "Ryutaro Takahashi"
+   ],
+   "series": [
+    "Metroid (2D)",
+    "Rhythm Heaven",
+    "Tomodachi Life"
+   ],
+   "recent": [
+    "Famicom Detective Club (w/MAGES)",
+    "Metroid Dread (w/ MercurySteam)",
+    "Emio – The Smiling Man: Famicom Detective Club (w/MAGES)",
+    "Tomodachi Life: Living the Dream"
+   ],
+   "current": [
+    "Metroid Ravenous (w/ Mecruty Steam)"
+   ]
+  },
+  "PG#8": {
+   "head": "Nintendo EPD Production Group No. 8",
+   "producers": [
+    "Kenta Motokura"
+   ],
+   "leads": [
+    "Futoshi Shirai",
+    "Shinya Hiratake",
+    "Kazuya Takahashi"
+   ],
+   "series": [
+    "3D Mario",
+    "NES Remix",
+    "Donkey Kong"
+   ],
+   "recent": [
+    "Captain Toad: Treasure Tracker (w/NST)",
+    "Super Mario 3D World + Bowser's Fury (w/NST)",
+    "Donkey Kong Bananza"
+   ],
+   "current": [
+    "Next 3D Mario? TBA (2D Project?)"
+   ]
+  },
+  "PG#9": {
+   "head": "Nintendo EPD Production Group No. 9",
+   "producers": [
+    "Kosuke Yabuki"
+   ],
+   "leads": [
+    "Masaaki Iwasaki",
+    "Kenta Sato",
+    "Kentaro Nishimura"
+   ],
+   "series": [
+    "Mario Kart",
+    "ARMS",
+    "Nintendogs"
+   ],
+   "recent": [
+    "Mario Kart 8 Deluxe",
+    "ARMS",
+    "Mario Kart Tour",
+    "Mario Kart: Home Circuit",
+    "Mario Kart 8 Booster Course Pass"
+   ],
+   "current": [
+    "Mario Kart World Updates"
+   ]
+  },
+  "PG#10": {
+   "head": "Nintendo EPD Production Group No. 10",
+   "producers": [
+    "Hiroyuki Kimura",
+    "Koichi Hayashida"
+   ],
+   "leads": [
+    "Shigefumi Hino",
+    "Yuji Kando",
+    "Shiro Mouri"
+   ],
+   "series": [
+    "Super Mario Bros. (2D)",
+    "Pikmin",
+    "Big Brain Academy"
+   ],
+   "recent": [
+    "New Super Mario Bros. U Deluxe",
+    "Super Mario Maker 2",
+    "Pikmin 3 Deluxe (w/Eighting)",
+    "Pikmin 4",
+    "Super Mario Bros. Wonder",
+    "Meetup at Bellabel Park"
+   ],
+   "current": [
+    "Pikmin 4: NS2E + Dandori Academy"
+   ]
+  },
+  "SDPG": {
+   "head": "Nintendo EPD - Smart Device Production Group (External R&D)",
+   "producers": [
+    "Hideki Konno (former)",
+    "Kei Hoshiba",
+    "Shingo Matsushita"
+   ],
+   "leads": [
+    "Junichi Iida"
+   ],
+   "recent": [
+    "Fire Emblem Heroes",
+    "Dragalia Lost",
+    "Dr. Mario World",
+    "Mario Kart Tour",
+    "Animal Crossing: Pocket Camp",
+    "Mario Kart Tour"
+   ],
+   "current": [
+    "Fire Emblem Heroes",
+    "Fire Emblem Shadows",
+    "Pictonico"
+   ]
+  }
+ },
+ "studios": {
+  "Monolith Soft": {
+   "key": "MONOLITH SOFTWARE",
+   "about": "Monolith Soft Co., Ltd. is a subsidiary development company of Nintendo Co., Ltd, acquired in 2007. Its main Japan-based offices are located in Tokyo and Kyoto . The developer is mainly responsible for the Xenoblade series, but has also dedicated several resources to produce art assets in cooperation with main Nintendo Co., Ltd in-house titles.",
+   "people": [
+    "Hirohide Sugiura (president)",
+    "Hiroshi Uchiyama (Kyoto group)"
+   ],
+   "releases": [
+    "Xenoblade Chronicles: Definitive Edition",
+    "Xenoblade Chronicles 3",
+    "Xenoblade Chronicles X: Definitive Editon",
+    "The Legend of Zelda: Breath of the Wild",
+    "The Legend of Zelda: Tears of the Kingdom",
+    "Animal Crossing: New Horizons",
+    "Splatoon 3",
+    "The Legend of Zelda: Tears of the Kingdom",
+    "Splatoon Raiders"
+   ],
+   "current": [
+    "The Legend of Zelda: Ocarina of Time HD?",
+    "Mario Kart World updates"
+   ]
+  },
+  "Retro Studios": {
+   "key": "Retro Studios",
+   "about": "Retro Studios Inc. is an American video game developer and subsidiary of Nintendo based in Austin, Texas. Retro was founded on September 21, 1998 as an alliance between Nintendo and former Iguana Entertainment founder Jeff Spangenberg, hoping to create titles for the then-upcoming GameCube aiming at an older demographic. The studio has established itself as a powerhouse with the Metroid Prime series and their revival of Donkey Kong Country.",
+   "people": [
+    "Michael Kelbaugh (president)"
+   ],
+   "releases": [
+    "Donkey Kong Country Returns",
+    "Donkey Kong Country: Tropical Freeze",
+    "Metroid Prime Remastered",
+    "Metroid Prime 4"
+   ],
+   "current": []
+  },
+  "Nintendo Cube": {
+   "key": "Nintendo Cube",
+   "about": "Nintendo Cube (formerly NDcube) is a subsidiary originally established as a collaboration between Nintendo and Dentsu. The studio had a resurgence after Hudson Soft was absorbed by Konami so, the Mario Party team joined the studio with a former Hudson Soft president leading the studio. The studio has done various minigame compilations such as Wii Party, the Mario Party series starting with 9 and Clubhouse Games: 51 Worldwide Classics.",
+   "people": [
+    "Shuichiro Nishiya (president)"
+   ],
+   "releases": [
+    "Animal Crossing: Pocket Camp",
+    "Clubhouse Games: 51 Worldwide Classics",
+    "Mario Party Superstars",
+    "Everybody 1-2 Switch",
+    "Nintendo Switch 2 Welcome Tour",
+    "Super Mario Party Jamboree Switch 2 Edition"
+   ],
+   "current": []
+  },
+  "1-UP Studio": {
+   "key": "1-Up Studio",
+   "about": "1-Up Studio is a game development studio founded in 2000 as Brownie Brown made of developers who worked on the Mana series. They collaborated with other publishers on a few titles in that early time including some Mana titles and Fantasy Life. In 2013, the studio was integrated fully as codevelopment studio for Nintendo with several of the original developers leaving to form Brownies. Since then, they have assisted in the design of 3D Mario games and supported games like Animal Crossing: New Horizons.",
+   "people": [
+    "Gen Kadoi (president)"
+   ],
+   "releases": [
+    "Magical Vacation",
+    "Ring Fit Adventure",
+    "Animal Crossing: New Horizons",
+    "Super Mario 3D All-Stars",
+    "Super Mario 3D World + Bowser's Fury",
+    "Donkey Kong Bananza"
+   ],
+   "current": [
+    "Mario Kart World",
+    "SMB Wonder - Meetup in Bellabel Park"
+   ]
+  },
+  "Next Level Games": {
+   "key": "Next Level Games",
+   "about": "Next Level Games is a game development studio founded in 2002 in Vancouver, Canada from former EA Black Box staff. Nintendo acquired the studio in 2021. Next Level is best known for their work with Nintendo including their work on the Luigi's Mansion series.",
+   "people": [
+    "Douglas Tronsgard (former), Alex MacFarlane (Managing Director)"
+   ],
+   "releases": [
+    "Punch-Out!!",
+    "Metroid Prime: Federation Force",
+    "Luigi's Mansion 3",
+    "Mario Strikers: Battle League",
+    "Metroid Prime 4 (support)"
+   ],
+   "current": []
+  },
+  "Nintendo Software Technology": {
+   "key": "Nintendo Software Technology (NST)",
+   "about": "The studio was established in 1998 as a collaboration with the university, DigiPen Institute of Technology. The studio is largely taken from DigiPen graduatates and creates mostly smaller titles. More recently, they have assisted EPD in porting titles to new hardware.",
+   "people": [
+    "Shigeki Yamashiro (president)"
+   ],
+   "releases": [
+    "Mario vs. Donkey Kong series",
+    "Super Mario Maker for Nintendo 3DS",
+    "Snipperclips",
+    "Captain Toad: Treasure Tracker (3DS/ Switch)",
+    "Super Mario 3D World + Bowser's Fury",
+    "Super Mario Galaxy 1 + 2"
+   ],
+   "current": [
+    "F-Zero 99"
+   ]
+  },
+  "Nintendo European Research & Development": {
+   "key": "Nintendo European Research & Development (N.E.R.D.)",
+   "about": "Nintendo European Research & Development (NERD) is a European subsidiary based in Paris, France. It was formerly known as Mobiclip. It specializes in hardware middleware and classic game emulation.",
+   "people": [
+    "Alexandre Delattre (managing director)"
+   ],
+   "releases": [
+    "Nintendo DS Virtual Console on Wii U",
+    "Wii-DL software on Wii U",
+    "\"Super-stable 3D\" on New Nintendo 3DS",
+    "NES & SNES Classic",
+    "Labo VR Kit",
+    "Super Mario 3D All-Stars (Sunshine/Galaxy emulation)",
+    "Mario Kart Live: Home Circuit",
+    "Brain Training for Nintendo Switch (deep learning middleware for RPS game)",
+    "Ring Fit Adventure (heart rate IR detection)",
+    "Pikmin 1 + 2"
+   ],
+   "current": [
+    "Nintendo Classics (ignoring Sega)"
+   ]
+  },
+  "iQue": {
+   "key": "iQue",
+   "about": "iQue is a Chinese subsidiary based in Suzhou, China. They used to distribute Nintendo products in China such as the iQue Player. The brand was dropped in 2018 when, Tencent became the official distributor. As of 2017, iQue's main role is localization for China. They have recently hired developers to help with Nintendo EPD games and their first project is work on Super Mario 3D All-Stars. They have also done some earlier emulation work with the NES emulator on the 3DS and the N64 emulator on the Wii U."
+  },
+  "SRD": {
+   "key": "SRD",
+   "about": "SRD (Systems Research and Development) is a longtime partner of Nintendo going back to the Famicom. They have worked with Nintendo on programming on major titles from the original Super Mario Bros. to modern titles such as Tears of the Kingdom. Nintendo acquired them in 2022. They are also involved with Server Development across the company's titles."
+  },
+  "Nintendo Pictures": {
+   "key": "Nintendo Pictures",
+   "about": "Nintendo Pictures (formerly Dynamo Pictures) is Nintendo's animation studio that had formerly worked on CG and Motion Capture for various anime and productions. For Nintendo, they have worked on the Pikmin Short Movies and the short film \"Close to You\". Nintendo acquired them in 2022. Since then, they have been credited in both the Super Mario Movie, The Legend of Zelda: Tears of the Kingdom and Super Mario Bros. Wonder. Additionally, they still provide motion capture and CG on some series like Precure"
+  },
+  "Shiver Entertainment": {
+   "key": "Shiver Entertiment",
+   "about": "Shiver Entertainment is a developer based in Miami, Florida established in 2012 by former Electronic Arts executives, John Schappert and Jon Osvald. They have not worked directly with Nintendo prior to their acquisition but, they worked on several high-profile titles ported to the Nintendo Switch. In 2021, they were acquired by the Embracer Group for Saber Interactive. Nintendo acquired the developer from Embracer in May 2024. Since the acquisition, they have worked on WWE 2K25 for the Nintendo Switch 2."
+  },
+  "Nintendo Studios Singapore": {
+   "key": "Nintendo Studios Singapore",
+   "about": "Nintendo Studios Singapore is a developer acquired from Bandai Namco in 2026. It was established in 2013, where it provided support work for various Bandai Namco Studios titles over the years including Mario Sports Superstars, Super Smash Bros. Ultimate, Splatoon 3 and Kirby Air Riders. Its current CEO is Makoto Ishii.",
+   "releases": [
+    "Splatoon 3",
+    "Mario Kart World",
+    "Kirby Air Riders",
+    "Tomodachi Life: Living the Dream",
+    "Splatoon Raiders"
+   ]
+  },
+  "Game Freak": {
+   "key": "Game Freak",
+   "about": "Game Freak is the main developer for the Pokémon franchise, developing the main entries since the beginning of the franchise. The studio has also been attempting to develop some independent games with their younger developers called Gear Project. The company as of 2020 now shares a building with HAL Laboratory and Nintendo EPD in Tokyo",
+   "people": [
+    "Satoshi Tajiri (president)",
+    "Shigeru Ohmori (general producer)"
+   ],
+   "releases": [
+    "Pokémon series",
+    "Pocket Card Jockey: Ride On",
+    "Pokémon Legends Z-A",
+    "Pokémon Pokopia",
+    "Pand Land (Wonderplanet)"
+   ],
+   "current": [
+    "Beast of Reincarnation (FICTIONS)",
+    "Pokémon Pokopia Expansion Pass",
+    "Pokémon Winds & Waves",
+    "Pokemon Champions (balancing)"
+   ]
+  },
+  "HAL Laboratory": {
+   "key": "HAL Laboratory",
+   "about": "HAL Laboratory is a long-time contracted developer for Nintendo since the Famicom. They are mainly known for being the studio behind Kirby. They operate out of Tokyo, Japan. They also develop some system tools for Nintendo hardware.",
+   "people": [
+    "Shigefumi Kawase (president)"
+   ],
+   "releases": [
+    "Pasocom Mini (not with Nintendo)",
+    "Part Time UFO",
+    "Kirby and the Forgotten Land",
+    "Kirby's Dream Buffet",
+    "Kirby's Return to Dream Land Deluxe"
+   ],
+   "current": [
+    "Kirby and the World Beyond"
+   ]
+  },
+  "Intelligent Systems": {
+   "key": "Intelligent Systems",
+   "about": "Intelligent Systems is a long-time contracted developer for Nintendo since the Famicom. It's main office is in Kyoto, Japan. They are the developers responsible for Fire Emblem, Paper Mario and WarioWare. They also develop some system tools for Nintendo hardware.",
+   "people": [
+    "Toshiyuki Nakamura (president)"
+   ],
+   "releases": [
+    "Fire Emblem Engage",
+    "Advance Wars 1+2: Re-Boot Camp (supervision)",
+    "WarioWare: Move It",
+    "Paper Mario: The Thousand-Year Door"
+   ],
+   "current": [
+    "Fire Emblem: Fortune's Weave"
+   ]
+  },
+  "Grezzo": {
+   "key": "Grezzo",
+   "about": "Grezzo is a developer found in 2006 by former Mana series director, Koichi Ishii. They have mostly established themselves as a remake studio though they still have capable designers with their original work on Tri Force Heroes and Ever Oasis.",
+   "people": [
+    "Koichi Ishii (president)"
+   ],
+   "releases": [
+    "Ever Oasis",
+    "Luigi's Mansion 3DS",
+    "The Legend of Zelda: Link's Awakening",
+    "Miitopia",
+    "Jet Dragoon",
+    "The Legend of Zelda: Echoes of Wisdom"
+   ],
+   "current": []
+  },
+  "Genius Sonority": {
+   "key": "Genious Sonority",
+   "about": "Genius Sonority is developer established in 2002 as a part of Yamauchi's Q Fund and made from former developers on the Dragon Quest series, Heartbeat. They were formed largely to support the Pokémon franchise",
+   "people": [
+    "Manabu Yamana (president)"
+   ],
+   "releases": [
+    "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors",
+    "100 Classic Book Collection",
+    "Pokémon Battle Trozei",
+    "The Denpa Men RPG",
+    "Pokémon Shuffle"
+   ],
+   "current": [
+    "Pokémon Café Remix",
+    "The New Denpa Men RPG Free"
+   ]
+  },
+  "The Pokémon Works": {
+   "key": null,
+   "about": "A joint venture between The Pokémon Company and ILCA established in 2024 to support the Pokémon franchise via Pokémon Home and other supporting software. They also contribute to the development of the mainline Pokémon series",
+   "people": [
+    "Takuya Iwasaki (president)"
+   ],
+   "releases": [
+    "Pokémon Home",
+    "Pokémon Brilliant Diamond/Shining Pearl",
+    "Pokémon Sleep",
+    "Pokémon Champions"
+   ]
+  }
+ },
+ "collab": {
+  "ACQUIRE Corp.": [
+   "Mario & Luigi: Brothership"
+  ],
+  "Arika": [
+   "Endless Ocean series",
+   "3D Classics series",
+   "Dr. Luigi",
+   "Tetris 99",
+   "Super Mario 35"
+  ],
+  "ArtePiazza": [
+   "Super Mario RPG"
+  ],
+  "Camelot Software Planning": [
+   "Mario Tennis series",
+   "Mario Golf series",
+   "Mario Sports Superstars (w/ Bandai Namco)",
+   "Golden Sun"
+  ],
+  "Creatures Inc.": [
+   "Pokemon Assist Studio",
+   "Detective Pikachu"
+  ],
+  "Eighting": [
+   "Kururin series",
+   "Kirby Star Allies",
+   "Pikmin 3 Deluxe",
+   "Pikmin 4",
+   "Nintendo Switch Sports Basketball"
+  ],
+  "Forever Entertainment": [
+   "Remakes",
+   "Donkey Kong Country Returns HD"
+  ],
+  "Good-Feel": [
+   "Kirby's Epic Yarn",
+   "Yoshi since Woolly World",
+   "Bakeru",
+   "Princess Peach Showtime"
+  ],
+  "indieszero": [
+   "NES Remix series",
+   "Big Brain Academy",
+   "Nintendo World Championships"
+  ],
+  "Mages Inc.": [
+   "Famicom Detective Club series"
+  ],
+  "MercurySteam": [
+   "2D Metroid"
+  ],
+  "PlatinumGames": [
+   "Astral Chain",
+   "Bayonetta",
+   "Star Fox Zero"
+  ],
+  "Spike Chunsoft": [
+   "Pokémon Mystery Dungeon"
+  ],
+  "Tantalus Media": [
+   "The Legend of Zelda: Skyward Sword HD",
+   "Luigi's Mansion 2 HD"
+  ]
+ },
+ "former": [
+  {
+   "name": "Arzest",
+   "key": "Arzest",
+   "work": "Yoshi's New Island, Hey! Pikmin"
+  },
+  {
+   "name": "Ganbarion",
+   "key": null,
+   "work": "Jump Ultimate Stars, Pandora's Tower, Wii Fit U"
+  },
+  {
+   "name": "Mistwalker",
+   "key": null,
+   "work": "ASH: Archaic Sealed Heat, The Last Story"
+  },
+  {
+   "name": "Monster Games",
+   "key": null,
+   "work": "Excite Truck, Excitebots, Excitebike World Rally, Pilotwings Resort, Donkey Kong Country Returns 3D, Xenoblade Chronicles 3D"
+  },
+  {
+   "name": "ParityBit",
+   "key": null,
+   "work": "Nintendo Pocket Football Club"
+  },
+  {
+   "name": "Syn Sophia Co. Ltd.",
+   "key": "Syn Sophia",
+   "work": "Style Savvy series, Fashion Dreamer, Fitness Boxing 3"
+  },
+  {
+   "name": "Vitei Inc.",
+   "key": null,
+   "work": "Rock N' Roll Climber, Theta, Steel Diver-series, Tank Troopers"
+  }
+ ],
+ "defunct": [
+  {
+   "name": "AlphaDream",
+   "key": null,
+   "work": "Mario & Luigi series, Mario & Sonic at the Tokyo 2020 Olympics"
+  },
+  {
+   "name": "Artoon",
+   "key": null,
+   "work": "later reformed as Arzest) (Yoshi's Island DS, FlingSmash, The Last Story"
+  },
+  {
+   "name": "CiNG",
+   "key": null,
+   "work": "Another Code/Trace Memory/Hotel Dusk/The Last Window"
+  },
+  {
+   "name": "Headstrong Games",
+   "key": null,
+   "work": "Art Academy series, Batallion Wars series"
+  },
+  {
+   "name": "Skip Ltd.",
+   "key": null,
+   "work": "Chibi-Robo! series"
+  },
+  {
+   "name": "Vanpool",
+   "key": null,
+   "work": "Dillon's Rolling Western, Super Kirby Clash. Kirby's Return to Dream Land DX"
+  }
+ ],
+ "games": [
+  {
+   "g": "Poochy & Yoshi's Woolly World",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "EPD #2",
+    "Good-Feel"
+   ],
+   "o": []
+  },
+  {
+   "g": "Tank Troopers",
+   "p": "3DS",
+   "y": null,
+   "k": [],
+   "o": [
+    "Vitei"
+   ]
+  },
+  {
+   "g": "Miitopia",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Metroid: Samus Returns",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "PG#7",
+    "MercurySteam"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fire Emblem Warriors",
+   "p": "3DS",
+   "y": null,
+   "k": [],
+   "o": [
+    "Koei Tecmo",
+    "Omega Force",
+    "Team Ninja"
+   ]
+  },
+  {
+   "g": "Mario & Luigi: Superstar Saga + Bowser's Minions",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "EPD #2"
+   ],
+   "o": [
+    "Alpha Dream"
+   ]
+  },
+  {
+   "g": "Dillon's Dead-Heat Breakers",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "PG#6"
+   ],
+   "o": [
+    "Vanpool"
+   ]
+  },
+  {
+   "g": "Sushi Striker: The Way of Sushido",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "EPD #1",
+    "indieszero"
+   ],
+   "o": []
+  },
+  {
+   "g": "Captain Toad: Treasure Tracker",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "PG#8",
+    "Nintendo Software Technology (NST)"
+   ],
+   "o": []
+  },
+  {
+   "g": "WarioWare Gold",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "PG#6",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Luigi's Mansion",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "EPD #1",
+    "Grezzo"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "EPD #2"
+   ],
+   "o": [
+    "Alpha Dream"
+   ]
+  },
+  {
+   "g": "Kirby's Extra Epic Yarn",
+   "p": "3DS",
+   "y": null,
+   "k": [
+    "EPD #2",
+    "Good-Feel"
+   ],
+   "o": []
+  },
+  {
+   "g": "Miitomo",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "PG#7"
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Mario Run",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "SDPG"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fire Emblem Heroes",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "SDPG",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Animal Crossing: Pocket Camp",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "SDPG",
+    "PG#5",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "Dragalia Lost",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "SDPG"
+   ],
+   "o": [
+    "CyGames"
+   ]
+  },
+  {
+   "g": "Dr. Mario World",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "SDPG"
+   ],
+   "o": [
+    "Line",
+    "NH Entertainment"
+   ]
+  },
+  {
+   "g": "Mario Kart Tour",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "SDPG",
+    "Bandai Namco Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pikmin Bloom",
+   "p": "Mobile",
+   "y": null,
+   "k": [
+    "SDPG"
+   ],
+   "o": [
+    "Niantic"
+   ]
+  },
+  {
+   "g": "1-2 Switch",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "The Legend of Zelda: Breath of the Wild",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "PG#3",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Snipperclips",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "EPD #2",
+    "Nintendo Software Technology (NST)"
+   ],
+   "o": [
+    "SFB Games"
+   ]
+  },
+  {
+   "g": "Mario Kart 8 Deluxe",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "PG#9"
+   ],
+   "o": []
+  },
+  {
+   "g": "ARMS",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "PG#9"
+   ],
+   "o": []
+  },
+  {
+   "g": "The Legend of Zelda: Breath of the Wild - Expansion Pass",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "PG#3",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Splatoon 2",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fire Emblem Warriors",
+   "p": "Switch",
+   "y": 2017,
+   "k": [],
+   "o": [
+    "Tecmo-Koei",
+    "Omega Force",
+    "Team Ninja"
+   ]
+  },
+  {
+   "g": "Super Mario Odyssey",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "PG#8"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fire Emblem Warriors - Season Pass",
+   "p": "Switch",
+   "y": 2017,
+   "k": [],
+   "o": [
+    "Tecmo-Koei",
+    "Omega Force",
+    "Team Ninja"
+   ]
+  },
+  {
+   "g": "Xenoblade Chronicles 2",
+   "p": "Switch",
+   "y": 2017,
+   "k": [
+    "EPD #1",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Bayonetta 1+2",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #1",
+    "PlatinumGames"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo Labo: Toy Con 01 - Variety Kit",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo Labo: Toy Con 02 - Robot Kit",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Kirby Star Allies",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #1",
+    "HAL Laboratory"
+   ],
+   "o": []
+  },
+  {
+   "g": "Donkey Kong Country Tropical Freeze",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "PG#6",
+    "Retro Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Hyrule Warriors Deluxe",
+   "p": "Switch",
+   "y": 2018,
+   "k": [],
+   "o": [
+    "Tecmo-Koei",
+    "Omega Force",
+    "Team Ninja"
+   ]
+  },
+  {
+   "g": "Sushi Striker: The Way of Sushido",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #1",
+    "indieszero"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario Tennis Aces",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #2",
+    "Camelot Software Planning"
+   ],
+   "o": []
+  },
+  {
+   "g": "Flip Wars",
+   "p": "Switch",
+   "y": 2018,
+   "k": [],
+   "o": [
+    "Over The Fence"
+   ]
+  },
+  {
+   "g": "Captain Toad: Treasure Tracker",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "PG#8",
+    "Nintendo Software Technology (NST)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Go Vacation",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "Bandai Namco Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Octopath Traveler",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "ACQUIRE Corp."
+   ],
+   "o": [
+    "Square Enix Team Asano"
+   ]
+  },
+  {
+   "g": "Nintendo Labo: Toy Con 03 - Vehicle Kit",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Xenoblade Chronicles 2: Torna ~ The Golden Country",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #1",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Mario Party",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #2",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon: Let's Go",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #1",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Super Smash Bros. Ultimate",
+   "p": "Switch",
+   "y": 2018,
+   "k": [
+    "EPD #2",
+    "Bandai Namco Studios"
+   ],
+   "o": [
+    "Sora"
+   ]
+  },
+  {
+   "g": "New Super Mario Bros. U Deluxe",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#10"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fitness Boxing",
+   "p": "Switch",
+   "y": 2019,
+   "k": [],
+   "o": [
+    "Imagineer",
+    "Jupiter"
+   ]
+  },
+  {
+   "g": "Tetris 99",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #1",
+    "Arika"
+   ],
+   "o": []
+  },
+  {
+   "g": "Captain Toad: Treasure Tracker - Special Episode",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#8",
+    "Nintendo Software Technology (NST)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Smash Bros. Ultimate - Fighters Pass",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #2",
+    "Bandai Namco Studios"
+   ],
+   "o": [
+    "Sora"
+   ]
+  },
+  {
+   "g": "Yoshi's Crafted World",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #2",
+    "Good-Feel"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo Labo: Toy Con 04 - VR Kit",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "BoxBoy! + BoxGirl!",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #1",
+    "HAL Laboratory"
+   ],
+   "o": []
+  },
+  {
+   "g": "Cadence of Hyrule – Crypt of the NecroDancer Featuring The Legend of Zelda",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "Spike Chunsoft"
+   ],
+   "o": [
+    "Brace Yourself Games"
+   ]
+  },
+  {
+   "g": "Super Mario Maker 2",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#10"
+   ],
+   "o": []
+  },
+  {
+   "g": "Dragon Quest Builders 2",
+   "p": "Switch",
+   "y": 2019,
+   "k": [],
+   "o": [
+    "Square Enix",
+    "Bird Studio",
+    "Armor Project",
+    "Koei Tecmo"
+   ]
+  },
+  {
+   "g": "Fire Emblem: Three Houses",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #1",
+    "Intelligent Systems"
+   ],
+   "o": [
+    "Koei Tecmo"
+   ]
+  },
+  {
+   "g": "Marvel Ultimate Alliance 3: Black Order",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #2"
+   ],
+   "o": [
+    "Team Ninja"
+   ]
+  },
+  {
+   "g": "Astral Chain",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #1",
+    "PlatinumGames"
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Kirby Clash",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #1",
+    "HAL Laboratory"
+   ],
+   "o": [
+    "Vanpool"
+   ]
+  },
+  {
+   "g": "Daemon X Machina",
+   "p": "Switch",
+   "y": 2019,
+   "k": [],
+   "o": [
+    "Marvelous",
+    "Marvelous First Studio"
+   ]
+  },
+  {
+   "g": "The Legend of Zelda: Link's Awakening",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#3"
+   ],
+   "o": []
+  },
+  {
+   "g": "Dragon Quest XI S ~ Echoes of an Elusive Age - Definitive Edition",
+   "p": "Switch",
+   "y": 2019,
+   "k": [],
+   "o": [
+    "Square Enix",
+    "Bird Studio",
+    "Armor Project"
+   ]
+  },
+  {
+   "g": "Ring Fit Adventure",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fire Emblem: Three Houses - Expansion Pass",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #1",
+    "Intelligent Systems"
+   ],
+   "o": [
+    "Koei Tecmo"
+   ]
+  },
+  {
+   "g": "Luigi's Mansion 3",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#6",
+    "Next Level Games"
+   ],
+   "o": []
+  },
+  {
+   "g": "The Stretchers",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #2"
+   ],
+   "o": [
+    "Tarsier Studios"
+   ]
+  },
+  {
+   "g": "Pokémon: Sword / Pokémon: Shield",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "EPD #1",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Dr. Kawashima’s Brain Training for Nintendo Switch",
+   "p": "Switch",
+   "y": 2019,
+   "k": [
+    "PG#4",
+    "indieszero"
+   ],
+   "o": []
+  },
+  {
+   "g": "Tokyo Mirage Sessions ♯FE Encore",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #1"
+   ],
+   "o": [
+    "ATLUS Co. Ltd"
+   ]
+  },
+  {
+   "g": "Super Smash Bros. Ultimate - Fighters Pass Vol. 2",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #2",
+    "Bandai Namco Studios"
+   ],
+   "o": [
+    "Sora"
+   ]
+  },
+  {
+   "g": "Pokémon Mystery Dungeon: Rescue Team DX",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #1",
+    "Spike Chunsoft"
+   ],
+   "o": []
+  },
+  {
+   "g": "Luigi's Mansion 3 Multiplayer Pack",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "PG#6",
+    "Next Level Games"
+   ],
+   "o": []
+  },
+  {
+   "g": "Animal Crossing: New Horizons",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Good Job!",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #2"
+   ],
+   "o": [
+    "Paladin Studios"
+   ]
+  },
+  {
+   "g": "Xenoblade: Definitive Edition",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #1",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Clubhouse Games / 51 Worldwide Games",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #2",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon: Sword / Pokémon: Shield Expansion Pass",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #1",
+    "Game Freak"
+   ],
+   "o": []
+  },
+  {
+   "g": "Jump Rope Challenge",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Paper Mario: The Origami King",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "PG#6",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Mario 3D All-Stars",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "PG#8",
+    "1-Up Studio",
+    "iQue",
+    "Nintendo European Research & Development (N.E.R.D.)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Kirby Fighters 2",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #1",
+    "HAL Laboratory"
+   ],
+   "o": [
+    "Vanpool"
+   ]
+  },
+  {
+   "g": "Super Mario 35",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "Arika"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario Kart Live: Home Circuit",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "PG#4",
+    "PG#9",
+    "Nintendo European Research & Development (N.E.R.D.)"
+   ],
+   "o": [
+    "Velan Studios"
+   ]
+  },
+  {
+   "g": "Cadence of Hyrule – Crypt of the NecroDancer Featuring The Legend of Zelda [Complete Edition]",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "Spike Chunsoft"
+   ],
+   "o": [
+    "Brace Yourself Games"
+   ]
+  },
+  {
+   "g": "Part Time UFO",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "EPD #1",
+    "HAL Laboratory"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pikmin 3 Deluxe",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "PG#10",
+    "Eighting"
+   ],
+   "o": []
+  },
+  {
+   "g": "Game & Watch: Super Mario Bros",
+   "p": "Switch",
+   "y": 2020,
+   "k": [
+    "Nintendo European Research & Development (N.E.R.D.)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Hyrule Warriors: Age of Calamity",
+   "p": "Switch",
+   "y": 2020,
+   "k": [],
+   "o": [
+    "Koei-Tecmo",
+    "Omega Force"
+   ]
+  },
+  {
+   "g": "Fitness Boxing 2: Rhythm & Exercise",
+   "p": "Switch",
+   "y": 2020,
+   "k": [],
+   "o": [
+    "Imagineer",
+    "Jupiter"
+   ]
+  },
+  {
+   "g": "Super Mario 3D World + Bowser's Fury",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#8",
+    "1-Up Studio",
+    "Nintendo Software Technology (NST)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Bravely Default II",
+   "p": "Switch",
+   "y": 2021,
+   "k": [],
+   "o": [
+    "Square Enix Team Asano",
+    "Claytechworks"
+   ]
+  },
+  {
+   "g": "New Pokémon Snap",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "EPD #1",
+    "Bandai Namco Studios"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Famicom Detective Club: The Missing Heir & Famicom Detective Club: The Girl Who Stands Behind",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#7",
+    "Mages Inc."
+   ],
+   "o": []
+  },
+  {
+   "g": "Miitopia",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#4",
+    "Grezzo"
+   ],
+   "o": []
+  },
+  {
+   "g": "Hyrule Warriors Age of Calamity: Expansion Pass",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#3"
+   ],
+   "o": [
+    "Koei Tecmo",
+    "Omega Force"
+   ]
+  },
+  {
+   "g": "DC Super Hero Girls: Teen Power",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "EPD #2"
+   ],
+   "o": [
+    "Toybox",
+    "appci"
+   ]
+  },
+  {
+   "g": "Game Builder Garage",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario Golf: Super Rush",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "EPD #2",
+    "Camelot Software Planning"
+   ],
+   "o": []
+  },
+  {
+   "g": "The Legend of Zelda: Skyward Sword HD",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#3",
+    "Tantalus Media"
+   ],
+   "o": []
+  },
+  {
+   "g": "WarioWare: Get it Together!",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#6",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Metroid Dread",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#7",
+    "MercurySteam"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario Party Superstars",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "EPD #2",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "Animal Crossing: New Horizons Expansion",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Game & Watch: The Legend of Zelda",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#3",
+    "Nintendo European Research & Development (N.E.R.D.)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Shin Megami Tensei V",
+   "p": "Switch",
+   "y": 2021,
+   "k": [],
+   "o": [
+    "ATLUS"
+   ]
+  },
+  {
+   "g": "Pokémon Brilliant Diamond / Shining Pearl",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "EPD #1",
+    "ILCA"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Big Brain Academy: Brain vs. Brain",
+   "p": "Switch",
+   "y": 2021,
+   "k": [
+    "PG#4",
+    "indieszero"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Legends: Arceus",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "EPD #1",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Triangle Strategy",
+   "p": "Switch",
+   "y": 2022,
+   "k": [],
+   "o": [
+    "Square Enix Team Asano",
+    "Artdink"
+   ]
+  },
+  {
+   "g": "Mario Kart 8 Deluxe Booster Course Pass - Wave 1-3",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "PG#9",
+    "Bandai Namco Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Kirby and the Forgotten Land",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "EPD #1",
+    "HAL Laboratory"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo Switch Sports",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario Strikers: Battle League",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "PG#6",
+    "Next Level Games"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fire Emblem Warriors: Three Hopes",
+   "p": "Switch",
+   "y": 2022,
+   "k": [],
+   "o": [
+    "Tecmo-Koei",
+    "Omega Force"
+   ]
+  },
+  {
+   "g": "Live A Live",
+   "p": "Switch",
+   "y": 2022,
+   "k": [],
+   "o": [
+    "Square Enix Team Asano",
+    "Historia"
+   ]
+  },
+  {
+   "g": "Xenoblade Chronicles 3",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "EPD #1",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Kirby's Dream Buffet",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "HAL Laboratory"
+   ],
+   "o": []
+  },
+  {
+   "g": "Splatoon 3",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Bayonetta 3",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "EPD #1",
+    "PlatinumGames"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario + Rabbids: Sparks of Hope",
+   "p": "Switch",
+   "y": 2022,
+   "k": [],
+   "o": [
+    "Ubisoft",
+    "Ubisoft Milan"
+   ]
+  },
+  {
+   "g": "Pokémon Scarlet & Violet",
+   "p": "Switch",
+   "y": 2022,
+   "k": [
+    "EPD #1",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Fire Emblem Engage",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #1",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Metroid Prime Remastered",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#6",
+    "Retro Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Kirby's Return to Dream Land DX",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #1",
+    "HAL Laboratory"
+   ],
+   "o": [
+    "Vanpool"
+   ]
+  },
+  {
+   "g": "Bayonetta Origins: Cereza and the Lost Demon",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #1",
+    "PlatinumGames"
+   ],
+   "o": []
+  },
+  {
+   "g": "Advance Wars 1+2: Re-Boot Camp",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #1",
+    "Intelligent Systems"
+   ],
+   "o": [
+    "WayForward"
+   ]
+  },
+  {
+   "g": "The Legend of Zelda: Tears of the Kingdom",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#3",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pikmin 1 + 2",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #2",
+    "Nintendo European Research & Development (N.E.R.D.)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Everybody 1-2 Switch",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#4",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pikmin 4",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#10",
+    "Eighting"
+   ],
+   "o": []
+  },
+  {
+   "g": "Baten Kaitos I & II HD Remaster",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "Bandai Namco Studios",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": [
+    "LogicalBeat"
+   ]
+  },
+  {
+   "g": "F-Zero 99",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #2",
+    "Nintendo Software Technology (NST)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Detective Pikachu Returns!",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #2",
+    "Creatures Inc."
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Mario Bros. Wonder",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#10"
+   ],
+   "o": []
+  },
+  {
+   "g": "WarioWare: Move It!",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#6",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Mario RPG",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#3",
+    "ArtePiazza"
+   ],
+   "o": []
+  },
+  {
+   "g": "Fire Emblem Engage Expansion Pass",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #1",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Xenoblade Chronicles 3 Expansion Pass",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #1",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Scarlet & Violet: The Hidden Treasure of Area Zero",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "EPD #1",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Mario Kart 8 Deluxe Booster Course Pass - Waves 4 - 6",
+   "p": "Switch",
+   "y": 2023,
+   "k": [
+    "PG#9",
+    "Bandai Namco Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Another Code: Recollection",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "EPD #2"
+   ],
+   "o": [
+    "Arc System Works"
+   ]
+  },
+  {
+   "g": "Mario vs. Donkey Kong",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "EPD #2",
+    "Nintendo Software Technology (NST)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Splatoon 3: Side Order",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Princess Peach: Showtime!",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "EPD #2",
+    "Good-Feel"
+   ],
+   "o": []
+  },
+  {
+   "g": "Endless Ocean Luminous",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "EPD #2",
+    "Arika"
+   ],
+   "o": []
+  },
+  {
+   "g": "Paper Mario: The Thousand Year Door (remake)",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "PG#6",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Luigi's Mansion 2 HD",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "PG#6",
+    "Tantalus Media"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo Switch Sports: Basketball update",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "PG#4",
+    "Eighting"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo World Championships: NES Edition",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "PG#4",
+    "indieszero"
+   ],
+   "o": []
+  },
+  {
+   "g": "Emio - The Smiling Man: Famicom Detective Club",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "PG#7",
+    "Mages Inc."
+   ],
+   "o": []
+  },
+  {
+   "g": "The Legend of Zelda: Echoes of Wisdom",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "PG#3",
+    "Grezzo"
+   ],
+   "o": []
+  },
+  {
+   "g": "Super Mario Party Jamboree",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "EPD #2",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario & Luigi: Brothership",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "EPD #2",
+    "ACQUIRE Corp."
+   ],
+   "o": []
+  },
+  {
+   "g": "Fitness Boxing 3: Your Personal Trainer",
+   "p": "Switch",
+   "y": 2024,
+   "k": [
+    "Syn Sophia"
+   ],
+   "o": [
+    "Imagineer"
+   ]
+  },
+  {
+   "g": "Donkey Kong Country Returns HD",
+   "p": "Switch",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Forever Entertainment"
+   ],
+   "o": []
+  },
+  {
+   "g": "Xenoblade Chronicles X: Definitive Edition",
+   "p": "Switch",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Friends",
+   "p": "Switch",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)"
+   ],
+   "o": [
+    "The Pokémon Company",
+    "Wonderfly"
+   ]
+  },
+  {
+   "g": "Super Mario Galaxy + Super Mario Galaxy 2",
+   "p": "Switch",
+   "y": 2025,
+   "k": [
+    "PG#8",
+    "iQue",
+    "Nintendo European Research & Development (N.E.R.D.)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Legends Z-A",
+   "p": "Switch",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Metroid Prime 4: Beyond",
+   "p": "Switch",
+   "y": 2025,
+   "k": [
+    "PG#6",
+    "Retro Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Legends Z-A: Mega Dimensions",
+   "p": "Switch",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Animal Crossing: New Horizons 3.0 Version Update",
+   "p": "Switch",
+   "y": 2026,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Champions",
+   "p": "Switch",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)"
+   ],
+   "o": [
+    "The Pokémon Company",
+    "Pokémon Works"
+   ]
+  },
+  {
+   "g": "Tomodachi Life: Living the Dream",
+   "p": "Switch",
+   "y": 2026,
+   "k": [
+    "PG#4",
+    "PG#7"
+   ],
+   "o": []
+  },
+  {
+   "g": "Rhythm Heaven Groove",
+   "p": "Switch",
+   "y": 2026,
+   "k": [
+    "PG#4",
+    "PG#7"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario Kart World",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#9",
+    "Bandai Namco Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo Switch 2 Welcome Tour",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#4",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "The Legend of Zelda: Breath of the Wild: Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#3"
+   ],
+   "o": [
+    "Nintendo Technology Development"
+   ]
+  },
+  {
+   "g": "The Legend of Zelda: Tears of the Kingdom: Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#3"
+   ],
+   "o": [
+    "Nintendo Technology Development"
+   ]
+  },
+  {
+   "g": "Donkey Kong Bananza",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#8",
+    "1-Up Studio"
+   ],
+   "o": [
+    "Tri-Crescendo"
+   ]
+  },
+  {
+   "g": "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Nintendo Cube"
+   ],
+   "o": []
+  },
+  {
+   "g": "Drag x Drive",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Kirby and the Forgotten Land: Nintendo Switch 2 Edition + Star-Crossed World",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "HAL Laboratory"
+   ],
+   "o": []
+  },
+  {
+   "g": "Donkey Kong Bananza: DK Island + Emerald Rush",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#8",
+    "1-Up Studio"
+   ],
+   "o": [
+    "Tri-Crescendo"
+   ]
+  },
+  {
+   "g": "Pokémon Legends Z-A: Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Hyrule Warriors: Age of Imprisonment",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [],
+   "o": [
+    "Koei Tecmo",
+    "AAA Studio"
+   ]
+  },
+  {
+   "g": "Kirby Air Riders",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Bandai Namco Studios"
+   ],
+   "o": [
+    "Sora"
+   ]
+  },
+  {
+   "g": "Metroid Prime 4: Beyond: Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2025,
+   "k": [
+    "PG#6",
+    "Retro Studios"
+   ],
+   "o": []
+  },
+  {
+   "g": "Animal Crossing: New Horizons - Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Mario Tennis Fever",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Camelot Software Planning"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Pokopia",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "Game Freak",
+    "CoPG (former EPD#1+2)"
+   ],
+   "o": [
+    "The Pokémon Company",
+    "Omega Force"
+   ]
+  },
+  {
+   "g": "Super Mario Bros. Wonder: Nintendo Switch 2 Edition + Meetup in Bellabel Park",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "PG#10",
+    "1-Up Studio"
+   ],
+   "o": []
+  },
+  {
+   "g": "Xenoblade Chronicles X: Definitive Edition - Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Yoshi and the Mysterious Book",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Good-Feel"
+   ],
+   "o": []
+  },
+  {
+   "g": "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Star Fox",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)"
+   ],
+   "o": [
+    "Velan Studios"
+   ]
+  },
+  {
+   "g": "Splatoon Raiders",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "PG#5"
+   ],
+   "o": []
+  },
+  {
+   "g": "Xenoblade Chronicles 2 - Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Pokopia Expansion Pass",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "Game Freak",
+    "CoPG (former EPD#1+2)"
+   ],
+   "o": [
+    "The Pokémon Company",
+    "Omega Force"
+   ]
+  },
+  {
+   "g": "Fire Emblem: Fortune's Weave",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Intelligent Systems"
+   ],
+   "o": []
+  },
+  {
+   "g": "Nintendo Switch Sports Resort",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "PG#4"
+   ],
+   "o": []
+  },
+  {
+   "g": "The Legend of Zelda: Ocarina of Time (remake)",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "PG#3"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pikmin 4: Nintendo Switch 2 Edition + Dandori Academy",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "PG#10",
+    "Eighting"
+   ],
+   "o": []
+  },
+  {
+   "g": "Xenoblade Chronicles 3 - Nintendo Switch 2 Edition",
+   "p": "Switch 2",
+   "y": 2026,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  },
+  {
+   "g": "Metroid Ravenous",
+   "p": "Switch 2",
+   "y": 2027,
+   "k": [
+    "PG#7",
+    "MercurySteam"
+   ],
+   "o": []
+  },
+  {
+   "g": "Hyrule Warriors: Age of Calamity – Definitive Edition",
+   "p": "Switch 2",
+   "y": 2027,
+   "k": [
+    "PG#3"
+   ],
+   "o": [
+    "AAA Studio (Koei Tecmo)"
+   ]
+  },
+  {
+   "g": "Kirby and the World Beyond",
+   "p": "Switch 2",
+   "y": 2027,
+   "k": [
+    "HAL Laboratory",
+    "CoPG (former EPD#1+2)"
+   ],
+   "o": []
+  },
+  {
+   "g": "Pokémon Pokopia Expansion Pass Wave 3",
+   "p": "Switch 2",
+   "y": 2027,
+   "k": [
+    "Game Freak",
+    "CoPG (former EPD#1+2)"
+   ],
+   "o": [
+    "The Pokémon Company",
+    "Omega Force"
+   ]
+  },
+  {
+   "g": "Pokémon Winds and Waves",
+   "p": "Switch 2",
+   "y": 2027,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "Game Freak"
+   ],
+   "o": [
+    "The Pokémon Company"
+   ]
+  },
+  {
+   "g": "Xenoblade Genesis",
+   "p": "Switch 2",
+   "y": 2027,
+   "k": [
+    "CoPG (former EPD#1+2)",
+    "MONOLITH SOFTWARE"
+   ],
+   "o": []
+  }
+ ],
+ "unmapped": [
+  "Velan"
+ ],
+ "epd_about": "Nintendo's main development force is the Entertainment Planning & Development Division. It is the conglomeration of Nintendo's Entertainment Analysis & Development Division and Software Planning & Development and formed in 2015, occupying Nintendo's R&D plants in Kyoto & Tokyo. It consists of over 800 developers that range from pioneers of the original Famicom to fresh recruits that will lead the games of the future. The internal R&D developers primarily work on Nintendo's largest franchises such as The Legend of Zelda, Animal Crossing and Mario as well as Nintendo's major series of the future like Splatoon and Ring Fit Adventure.",
+ "management": {
+  "General Manager": [
+   "Shinya Takahashi"
+  ],
+  "Deputy General Managers": [
+   "Katsuya Eguchi",
+   "Yoshiaki Koizumi",
+   "Keisuke Terasaki",
+   "Hisashi Nogami",
+   "Takayuki Shimamura"
+  ],
+  "Executive Officer": [
+   "Yoshiaki Koizumi"
+  ],
+  "Senior Officer": [
+   "Yoshio Sakamoto",
+   "Takashi Tezuka",
+   "Eiji Aonuma"
+  ]
+ }
+}

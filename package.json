@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "description": "Build tools for Nintendo Party Superstars (only terser, to minify the page script).",
+  "devDependencies": { "terser": "5.36.0" }
+}
