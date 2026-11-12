@@ -130,6 +130,8 @@ a.score:hover{outline:1.5px solid currentColor}
 .rec.g{background:var(--ok)}.rec.m{background:var(--mid)}.rec.b{background:var(--bad)}.rec.n{background:transparent;border:1.5px solid var(--accent)}
 .gc{font:400 11.5px var(--f-body);color:var(--muted)}
 .foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto}
+/* every card in a row shares the same rows, so scores and "Latest" line up across the row */
+@supports (grid-template-rows:subgrid){.grid>.card:has(.foot){display:grid;grid-template-rows:subgrid;grid-row:span 5;row-gap:12px}.grid>.card:has(.foot)>.foot{align-self:end}}
 .own{font:500 10.5px var(--f-body);text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border:1px solid var(--line);color:var(--muted);background:var(--surface);cursor:pointer;border-radius:3px}
 .own:hover{color:var(--fg);border-color:var(--fg)}
 .more{flex:none;font:600 13px var(--f-body);border:1px solid color-mix(in srgb,var(--st) 55%,var(--line));background:color-mix(in srgb,var(--st) var(--band),var(--surface));color:var(--fg);border-radius:999px;padding:6px 14px;cursor:pointer}
@@ -280,9 +282,9 @@ function card(s){
   const lab=g?(rc==="n"?"Next":"Latest"):"";
   return`<article class="card" style="--st:var(${t.v})">
   <div class="band"><h3>${esc(s.n)}</h3><div class="meta"><span>${esc(s.loc||"")}${s.y?" · "+s.y:""}</span><span class="pill">${t.l}</span>${flag}</div></div>
-  ${s.known?`<p class="known"><b>Known for</b>${esc(s.known)}</p>`:""}
+  ${s.known?`<p class="known"><b>Known for</b>${esc(s.known)}</p>`:`<p class="known"></p>`}
   <div class="stats"><div class="staff">${s.pg?'<b class="na">n/a</b><span>staff not published</span>':`<b class="${s.staff==null?"na":""}" title="${s.last?esc(Y[s.last[0]]):""}">${s.staff==null?"n/a":(approx?"~":"")+fmt(s.staff)}</b><span>staff${s.last&&s.last[0]<Y.length-1?" ("+esc(Y[s.last[0]])+")":""}</span>`}</div><span></span>${s.t==="main"||(s.t==="epd"&&!g)?"<span></span>":g&&rc!=="n"?badge(s.ms,g[0],s.gu||(s.gx?null:msSrc(s))):'<span class="score na" title="No Metascore">n/a</span>'}</div>
-  ${g?`<p class="lastg"><span class="tag${rc==="n"?" n":""}"${rc==="n"?' title="Announced, not out yet"':""}>${lab}</span><span class="tl" title="${esc(g[0])}">${esc(g[0])}</span><span class="tnum" style="color:var(--muted)">${g[1]||""}</span></p>`:(s.t==="main"||s.t==="epd"?"":`<p class="lastg"><span class="tag" style="background:none;color:var(--muted);box-shadow:none;padding-left:0">Latest</span><span style="color:var(--muted)">No game credited</span></p>`)}
+  ${g?`<p class="lastg"><span class="tag${rc==="n"?" n":""}"${rc==="n"?' title="Announced, not out yet"':""}>${lab}</span><span class="tl" title="${esc(g[0])}">${esc(g[0])}</span><span class="tnum" style="color:var(--muted)">${g[1]||""}</span></p>`:(s.t==="main"||s.t==="epd"?`<p class="lastg"></p>`:`<p class="lastg"><span class="tag" style="background:none;color:var(--muted);box-shadow:none;padding-left:0">Latest</span><span style="color:var(--muted)">No game credited</span></p>`)}
   <div class="foot"><span class="gc">${s.gn?s.gn+" game"+(s.gn>1?"s":"")+" credited":""}</span><button type="button" class="more" data-i="${s.i}" aria-haspopup="dialog">Details</button></div>
 </article>`}
 
