@@ -221,7 +221,8 @@
      "Wikipedia",
      "https://en.wikipedia.org/wiki/IQue"
     ]
-   ]
+   ],
+   "web": "https://www.ique.com/"
   },
   "SRD": {
    "disp": "SRD",
@@ -241,7 +242,8 @@
    "own": "Nintendo (100%, since 2024)",
    "ot": "Nintendo",
    "known": "Hogwarts Legacy and Mortal Kombat 1 on Switch",
-   "note": "Port specialist bought from Embracer in 2024."
+   "note": "Port specialist bought from Embracer in 2024.",
+   "web": "https://www.shiver.net/"
   },
   "Next Level Games": {
    "disp": "Next Level Games",
@@ -504,7 +506,8 @@
      "Metacritic",
      "https://www.metacritic.com/game/donkey-kong-country-returns-hd/"
     ]
-   ]
+   ],
+   "web": "https://forever-entertainment.com/"
   },
   "Good-Feel": {
    "disp": "Good-Feel",
@@ -578,7 +581,8 @@
      "Metacritic",
      "https://www.metacritic.com/game/emio-the-smiling-man-famicom-detective-club/"
     ]
-   ]
+   ],
+   "web": "https://mages.co.jp/"
   },
   "MercurySteam": {
    "disp": "MercurySteam",
@@ -682,7 +686,8 @@
      "Metacritic",
      "https://www.metacritic.com/game/luigis-mansion-2-hd/"
     ]
-   ]
+   ],
+   "web": "https://www.tantalus.com.au/"
   }
  },
  "groups": {
